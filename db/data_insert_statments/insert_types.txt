@@ -1,0 +1,8 @@
+INSERT INTO vehicletype (vehicle_type) VALUES ('Sedan');
+INSERT INTO vehicletype (vehicle_type) VALUES ('Coupe');
+INSERT INTO vehicletype (vehicle_type) VALUES ('Convertible');
+INSERT INTO vehicletype (vehicle_type) VALUES ('Truck');
+INSERT INTO vehicletype (vehicle_type) VALUES ('Van');
+INSERT INTO vehicletype (vehicle_type) VALUES ('Minivan');
+INSERT INTO vehicletype (vehicle_type) VALUES ('SUV');
+INSERT INTO vehicletype (vehicle_type) VALUES ('Other');

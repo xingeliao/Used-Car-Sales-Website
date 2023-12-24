@@ -1,0 +1,18 @@
+<h1 mat-dialog-title>Change status</h1>
+<div mat-dialog-content>
+  <p>Change part status</p>
+  <mat-form-field>
+    <mat-label>status</mat-label>
+
+
+  
+    <mat-select matNativeControl formControlName="partStatusType" [(value)]="selected">
+      <mat-option *ngFor="let s of partStatusTypeOptions" [value]="s" [disabled]="isOptionDisabled(s)">
+        {{ s }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <p>Part status will be updated to: {{selected}}</p>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">OK</button>
+  </div>

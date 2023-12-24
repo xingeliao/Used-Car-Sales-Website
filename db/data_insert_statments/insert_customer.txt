@@ -1,0 +1,1838 @@
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6263 11-street','Greensboro', 'NJ', '94210','2952597625', 'jhixenbaugh@xx-holding.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C8583214663', 
+                c.customer_id, 
+                'Gladys', 
+                'Ennaco' 
+            FROM customer c
+            WHERE c.street = '6263 11-street' AND c.city = 'Greensboro' AND c.state = 'NJ' AND c.postal_code = '94210' AND c.phone_number = '2952597625' AND email = 'jhixenbaugh@xx-holding.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4 5-street','Fresno', 'CA', '56357','7457629864', 'leroman@scotfind.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C3902566508', 
+                c.customer_id, 
+                'Rolland', 
+                'Lother' 
+            FROM customer c
+            WHERE c.street = '4 5-street' AND c.city = 'Fresno' AND c.state = 'CA' AND c.postal_code = '56357' AND c.phone_number = '7457629864' AND email = 'leroman@scotfind.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7813 20-street','Plano', 'NV', '23043','5452092393', 'hmiro@zoomit.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A0262371356', 
+                c.customer_id, 
+                'Taryn', 
+                'Emigh' 
+            FROM customer c
+            WHERE c.street = '7813 20-street' AND c.city = 'Plano' AND c.state = 'NV' AND c.postal_code = '23043' AND c.phone_number = '5452092393' AND email = 'hmiro@zoomit.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '9142 20-street','Seattle', 'WA', '70620','1660641039', 'fvarriano@groovestreet.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A7682641151', 
+                c.customer_id, 
+                'Alpha', 
+                'Walthall' 
+            FROM customer c
+            WHERE c.street = '9142 20-street' AND c.city = 'Seattle' AND c.state = 'WA' AND c.postal_code = '70620' AND c.phone_number = '1660641039' AND email = 'fvarriano@groovestreet.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '9537 11-street','Tampa', 'HI', '45207','0618026256', 'ljeanty@silis.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A0673790301', 
+                c.customer_id, 
+                'Gail', 
+                'Bitsuie' 
+            FROM customer c
+            WHERE c.street = '9537 11-street' AND c.city = 'Tampa' AND c.state = 'HI' AND c.postal_code = '45207' AND c.phone_number = '0618026256' AND email = 'ljeanty@silis.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6779 18-street','Milwaukee', 'NM', '96519','8153163701', 'lamyot@hatfan.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A0615216027', 
+                c.customer_id, 
+                'Van', 
+                'Mai' 
+            FROM customer c
+            WHERE c.street = '6779 18-street' AND c.city = 'Milwaukee' AND c.state = 'NM' AND c.postal_code = '96519' AND c.phone_number = '8153163701' AND email = 'lamyot@hatfan.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6440 7-street','Virginia Beach', 'GA', '51088','6246794115', 'rlace@dalttechnology.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B1456216849', 
+                c.customer_id, 
+                'Tonette', 
+                'Bayless' 
+            FROM customer c
+            WHERE c.street = '6440 7-street' AND c.city = 'Virginia Beach' AND c.state = 'GA' AND c.postal_code = '51088' AND c.phone_number = '6246794115' AND email = 'rlace@dalttechnology.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6449 12-street','Henderson', 'NE', '62053','9488520413', 'kmalvin@y-corporation.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A0184779785', 
+                c.customer_id, 
+                'Stephaine', 
+                'Konopacki' 
+            FROM customer c
+            WHERE c.street = '6449 12-street' AND c.city = 'Henderson' AND c.state = 'NE' AND c.postal_code = '62053' AND c.phone_number = '9488520413' AND email = 'kmalvin@y-corporation.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2798 1-street','Oklahoma City', 'KY', '92248','0732368848', 'mnunlee@goodsilron.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B0794790966', 
+                c.customer_id, 
+                'Cecil', 
+                'Hamilton' 
+            FROM customer c
+            WHERE c.street = '2798 1-street' AND c.city = 'Oklahoma City' AND c.state = 'KY' AND c.postal_code = '92248' AND c.phone_number = '0732368848' AND email = 'mnunlee@goodsilron.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2615 12-street','Scottsdale', 'NV', '29115','9414370820', 'edhamer@labdrill.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C4777906028', 
+                c.customer_id, 
+                'Tamar', 
+                'Mai' 
+            FROM customer c
+            WHERE c.street = '2615 12-street' AND c.city = 'Scottsdale' AND c.state = 'NV' AND c.postal_code = '29115' AND c.phone_number = '9414370820' AND email = 'edhamer@labdrill.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3253 9-street','Gilbert', 'LA', '66490','6866280646', 'jsweely@zencorporation.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D8191703970', 
+                c.customer_id, 
+                'Lucina', 
+                'Corrington' 
+            FROM customer c
+            WHERE c.street = '3253 9-street' AND c.city = 'Gilbert' AND c.state = 'LA' AND c.postal_code = '66490' AND c.phone_number = '6866280646' AND email = 'jsweely@zencorporation.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3248 13-street','Cincinnati', 'MN', '81587','9773209343', 'cstockham@ontomedia.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D6327656680', 
+                c.customer_id, 
+                'Mitsue', 
+                'Adkin' 
+            FROM customer c
+            WHERE c.street = '3248 13-street' AND c.city = 'Cincinnati' AND c.state = 'MN' AND c.postal_code = '81587' AND c.phone_number = '9773209343' AND email = 'cstockham@ontomedia.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '9665 4-street','Greensboro', 'NJ', '82332','1286731065', 'lspickerman@warephase.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C4236470136', 
+                c.customer_id, 
+                'Moon', 
+                'Kannady' 
+            FROM customer c
+            WHERE c.street = '9665 4-street' AND c.city = 'Greensboro' AND c.state = 'NJ' AND c.postal_code = '82332' AND c.phone_number = '1286731065' AND email = 'lspickerman@warephase.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8244 10-street','Plano', 'NV', '12130','1144874066', 'carceo@betatech.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A5896813739', 
+                c.customer_id, 
+                'Carin', 
+                'Bartolet' 
+            FROM customer c
+            WHERE c.street = '8244 10-street' AND c.city = 'Plano' AND c.state = 'NV' AND c.postal_code = '12130' AND c.phone_number = '1144874066' AND email = 'carceo@betatech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8630 9-street','Boise City', 'VA', '30701','1268667628', 'qmaclead@xx-zobam.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C8766275993', 
+                c.customer_id, 
+                'Mitsue', 
+                'Harabedian' 
+            FROM customer c
+            WHERE c.street = '8630 9-street' AND c.city = 'Boise City' AND c.state = 'VA' AND c.postal_code = '30701' AND c.phone_number = '1268667628' AND email = 'qmaclead@xx-zobam.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '9044 4-street','Austin', 'TX', '83302','0456125482', 'rbergesen@konex.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D1415748069', 
+                c.customer_id, 
+                'Carmelina', 
+                'Pontoriero' 
+            FROM customer c
+            WHERE c.street = '9044 4-street' AND c.city = 'Austin' AND c.state = 'TX' AND c.postal_code = '83302' AND c.phone_number = '0456125482' AND email = 'rbergesen@konex.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2824 16-street','Wichita', 'TX', '91491','3801976959', 'slabreche@donware.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C6252173359', 
+                c.customer_id, 
+                'Micaela', 
+                'Wiklund' 
+            FROM customer c
+            WHERE c.street = '2824 16-street' AND c.city = 'Wichita' AND c.state = 'TX' AND c.postal_code = '91491' AND c.phone_number = '3801976959' AND email = 'slabreche@donware.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3373 4-street','Chandler', 'TX', '87881','2183462945', NULL);
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C7780413175', 
+                c.customer_id, 
+                'Helaine', 
+                'Rim' 
+            FROM customer c
+            WHERE c.street = '3373 4-street' AND c.city = 'Chandler' AND c.state = 'TX' AND c.postal_code = '87881' AND c.phone_number = '2183462945' AND email = NULL;
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7998 8-street','Nashville-Davidson', 'MD', '67808','8354131959', 'nshin@doncon.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D3479521146', 
+                c.customer_id, 
+                'Garry', 
+                'Parlato' 
+            FROM customer c
+            WHERE c.street = '7998 8-street' AND c.city = 'Nashville-Davidson' AND c.state = 'MD' AND c.postal_code = '67808' AND c.phone_number = '8354131959' AND email = 'nshin@doncon.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6565 17-street','Cleveland', 'KS', '73194','2250204716', 'klipkin@dambase.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B7194397683', 
+                c.customer_id, 
+                'Rodolfo', 
+                'Diestel' 
+            FROM customer c
+            WHERE c.street = '6565 17-street' AND c.city = 'Cleveland' AND c.state = 'KS' AND c.postal_code = '73194' AND c.phone_number = '2250204716' AND email = 'klipkin@dambase.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6226 20-street','Detroit', 'MI', '86418','2231396691', 'vscriven@scotfind.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C3225068735', 
+                c.customer_id, 
+                'Lai', 
+                'Montezuma' 
+            FROM customer c
+            WHERE c.street = '6226 20-street' AND c.city = 'Detroit' AND c.state = 'MI' AND c.postal_code = '86418' AND c.phone_number = '2231396691' AND email = 'vscriven@scotfind.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3943 14-street','Newark', 'TX', '45709','0377627548', 'atromblay@golddex.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C4299342425', 
+                c.customer_id, 
+                'Lai', 
+                'Ferrario' 
+            FROM customer c
+            WHERE c.street = '3943 14-street' AND c.city = 'Newark' AND c.state = 'TX' AND c.postal_code = '45709' AND c.phone_number = '0377627548' AND email = 'atromblay@golddex.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8465 16-street','Long Beach', 'MO', '80577','4699225139', 'fgwalthney@rantouch.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A5517572915', 
+                c.customer_id, 
+                'Carmela', 
+                'Duenas' 
+            FROM customer c
+            WHERE c.street = '8465 16-street' AND c.city = 'Long Beach' AND c.state = 'MO' AND c.postal_code = '80577' AND c.phone_number = '4699225139' AND email = 'fgwalthney@rantouch.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1454 2-street','Albuquerque', 'AZ', '77662','1090850197', 'lwalthall@zotware.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C7549511819', 
+                c.customer_id, 
+                'Sharee', 
+                'Poquette' 
+            FROM customer c
+            WHERE c.street = '1454 2-street' AND c.city = 'Albuquerque' AND c.state = 'AZ' AND c.postal_code = '77662' AND c.phone_number = '1090850197' AND email = 'lwalthall@zotware.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7251 19-street','Indianapolis', 'IN', '56716','1695370409', 'akiel@mathtouch.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B9946174152', 
+                c.customer_id, 
+                'Leota', 
+                'Acuff' 
+            FROM customer c
+            WHERE c.street = '7251 19-street' AND c.city = 'Indianapolis' AND c.state = 'IN' AND c.postal_code = '56716' AND c.phone_number = '1695370409' AND email = 'akiel@mathtouch.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '857 18-street','Riverside', 'TX', '36018','6132850745', 'behmann@sunnamplex.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A0310274381', 
+                c.customer_id, 
+                'Stephaine', 
+                'Reitler' 
+            FROM customer c
+            WHERE c.street = '857 18-street' AND c.city = 'Riverside' AND c.state = 'TX' AND c.postal_code = '36018' AND c.phone_number = '6132850745' AND email = 'behmann@sunnamplex.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3042 6-street','Reno', 'VA', '67603','8407899085', 'lhoffis@labdrill.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B2440929697', 
+                c.customer_id, 
+                'Lizbeth', 
+                'Craghead' 
+            FROM customer c
+            WHERE c.street = '3042 6-street' AND c.city = 'Reno' AND c.state = 'VA' AND c.postal_code = '67603' AND c.phone_number = '8407899085' AND email = 'lhoffis@labdrill.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2318 1-street','Columbus', 'OH', '43322','6875935334', 'qglick@treequote.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D4831519171', 
+                c.customer_id, 
+                'Leslie', 
+                'Kines' 
+            FROM customer c
+            WHERE c.street = '2318 1-street' AND c.city = 'Columbus' AND c.state = 'OH' AND c.postal_code = '43322' AND c.phone_number = '6875935334' AND email = 'qglick@treequote.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6333 8-street','Cincinnati', 'MN', '19424','1962350101', 'iauffrey@zathunicon.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D5508697748', 
+                c.customer_id, 
+                'Aja', 
+                'Butzen' 
+            FROM customer c
+            WHERE c.street = '6333 8-street' AND c.city = 'Cincinnati' AND c.state = 'MN' AND c.postal_code = '19424' AND c.phone_number = '1962350101' AND email = 'iauffrey@zathunicon.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2452 7-street','Cincinnati', 'MN', '71867','5516394079', 'lharoldson@dambase.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D9669540937', 
+                c.customer_id, 
+                'Sabra', 
+                'Keener' 
+            FROM customer c
+            WHERE c.street = '2452 7-street' AND c.city = 'Cincinnati' AND c.state = 'MN' AND c.postal_code = '71867' AND c.phone_number = '5516394079' AND email = 'lharoldson@dambase.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8594 10-street','Louisville/Jefferson County', 'OR', '40210','7610432216', 'bcampain@year-job.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C9346888737', 
+                c.customer_id, 
+                'Franklyn', 
+                'Wiklund' 
+            FROM customer c
+            WHERE c.street = '8594 10-street' AND c.city = 'Louisville/Jefferson County' AND c.state = 'OR' AND c.postal_code = '40210' AND c.phone_number = '7610432216' AND email = 'bcampain@year-job.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5681 15-street','Scottsdale', 'NV', '11475','5302088589', 'bharabedian@lexiqvolax.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C2317543508', 
+                c.customer_id, 
+                'Bobbye', 
+                'Galam' 
+            FROM customer c
+            WHERE c.street = '5681 15-street' AND c.city = 'Scottsdale' AND c.state = 'NV' AND c.postal_code = '11475' AND c.phone_number = '5302088589' AND email = 'bharabedian@lexiqvolax.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1625 4-street','Pittsburgh', 'AK', '96388','0702183069', 'hmconnell@opentech.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B1852208630', 
+                c.customer_id, 
+                'Lashawnda', 
+                'Feichtner' 
+            FROM customer c
+            WHERE c.street = '1625 4-street' AND c.city = 'Pittsburgh' AND c.state = 'AK' AND c.postal_code = '96388' AND c.phone_number = '0702183069' AND email = 'hmconnell@opentech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4418 19-street','Miami', 'CA', '07124','9241624473', 'rsturiale@sonron.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C8969012326', 
+                c.customer_id, 
+                'Rodolfo', 
+                'Butzen' 
+            FROM customer c
+            WHERE c.street = '4418 19-street' AND c.city = 'Miami' AND c.state = 'CA' AND c.postal_code = '07124' AND c.phone_number = '9241624473' AND email = 'rsturiale@sonron.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7147 1-street','Aurora', 'CA', '27651','0466613052', 'msayaphon@rantouch.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B6847040699', 
+                c.customer_id, 
+                'Nan', 
+                'Lace' 
+            FROM customer c
+            WHERE c.street = '7147 1-street' AND c.city = 'Aurora' AND c.state = 'CA' AND c.postal_code = '27651' AND c.phone_number = '0466613052' AND email = 'msayaphon@rantouch.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '359 2-street','Anaheim', 'CA', '06291','0486179706', 'bbartolet@donquadtech.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A9416682035', 
+                c.customer_id, 
+                'Rebecka', 
+                'Juhas' 
+            FROM customer c
+            WHERE c.street = '359 2-street' AND c.city = 'Anaheim' AND c.state = 'CA' AND c.postal_code = '06291' AND c.phone_number = '0486179706' AND email = 'bbartolet@donquadtech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6261 8-street','Seattle', 'WA', '68418','7961690087', 'cshadrick@yearin.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A5090337834', 
+                c.customer_id, 
+                'Nan', 
+                'Restrepo' 
+            FROM customer c
+            WHERE c.street = '6261 8-street' AND c.city = 'Seattle' AND c.state = 'WA' AND c.postal_code = '68418' AND c.phone_number = '7961690087' AND email = 'cshadrick@yearin.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2340 3-street','Durham', 'WI', '40289','0199152902', 'lpolidori@newex.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A0936623718', 
+                c.customer_id, 
+                'Roosevelt', 
+                'Tagala' 
+            FROM customer c
+            WHERE c.street = '2340 3-street' AND c.city = 'Durham' AND c.state = 'WI' AND c.postal_code = '40289' AND c.phone_number = '0199152902' AND email = 'lpolidori@newex.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7781 13-street','Mesa', 'VA', '78747','1922818949', 'mtromblay@betasoloin.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A3710653626', 
+                c.customer_id, 
+                'Thaddeus', 
+                'Fritz' 
+            FROM customer c
+            WHERE c.street = '7781 13-street' AND c.city = 'Mesa' AND c.state = 'VA' AND c.postal_code = '78747' AND c.phone_number = '1922818949' AND email = 'mtromblay@betasoloin.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6465 6-street','Raleigh', 'FL', '20214','8978227826', 'jweight@plexzap.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C0673239779', 
+                c.customer_id, 
+                'Yuki', 
+                'Ryser' 
+            FROM customer c
+            WHERE c.street = '6465 6-street' AND c.city = 'Raleigh' AND c.state = 'FL' AND c.postal_code = '20214' AND c.phone_number = '8978227826' AND email = 'jweight@plexzap.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4326 10-street','Glendale', 'TX', '78589','1815377367', 'abergesen@sonron.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A5530386031', 
+                c.customer_id, 
+                'Becky', 
+                'Mallett' 
+            FROM customer c
+            WHERE c.street = '4326 10-street' AND c.city = 'Glendale' AND c.state = 'TX' AND c.postal_code = '78589' AND c.phone_number = '1815377367' AND email = 'abergesen@sonron.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3489 9-street','Phoenix', 'AZ', '81794','1180643423', 'slawler@sonron.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B5196684007', 
+                c.customer_id, 
+                'Sharika', 
+                'Mauson' 
+            FROM customer c
+            WHERE c.street = '3489 9-street' AND c.city = 'Phoenix' AND c.state = 'AZ' AND c.postal_code = '81794' AND c.phone_number = '1180643423' AND email = 'slawler@sonron.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1448 20-street','Santa Ana', 'MO', '73306','0865103920', 'ecorrio@zencorporation.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C1217659257', 
+                c.customer_id, 
+                'Trinidad', 
+                'Labreche' 
+            FROM customer c
+            WHERE c.street = '1448 20-street' AND c.city = 'Santa Ana' AND c.state = 'MO' AND c.postal_code = '73306' AND c.phone_number = '0865103920' AND email = 'ecorrio@zencorporation.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5813 17-street','Albuquerque', 'AZ', '28736','1858613754', 'scrupi@ontomedia.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C4987856002', 
+                c.customer_id, 
+                'Flo', 
+                'Acuff' 
+            FROM customer c
+            WHERE c.street = '5813 17-street' AND c.city = 'Albuquerque' AND c.state = 'AZ' AND c.postal_code = '28736' AND c.phone_number = '1858613754' AND email = 'scrupi@ontomedia.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '9990 17-street','Irving', 'AZ', '76250','6522538581', 'marceo@hatfan.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C3289101401', 
+                c.customer_id, 
+                'Irma', 
+                'Deleo' 
+            FROM customer c
+            WHERE c.street = '9990 17-street' AND c.city = 'Irving' AND c.state = 'AZ' AND c.postal_code = '76250' AND c.phone_number = '6522538581' AND email = 'marceo@hatfan.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5909 8-street','Fresno', 'CA', '10432','3839780003', 'mfunnell@konmatfix.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C4363694061', 
+                c.customer_id, 
+                'Edna', 
+                'Miceli' 
+            FROM customer c
+            WHERE c.street = '5909 8-street' AND c.city = 'Fresno' AND c.state = 'CA' AND c.postal_code = '10432' AND c.phone_number = '3839780003' AND email = 'mfunnell@konmatfix.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '9216 14-street','Jacksonville', 'FL', '59104','5462406127', 'jmaclead@codehow.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B7131079555', 
+                c.customer_id, 
+                'Annmarie', 
+                'Haroldson' 
+            FROM customer c
+            WHERE c.street = '9216 14-street' AND c.city = 'Jacksonville' AND c.state = 'FL' AND c.postal_code = '59104' AND c.phone_number = '5462406127' AND email = 'jmaclead@codehow.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1847 12-street','Washington', 'MA', '34383','1153394663', 'lmulqueen@donquadtech.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A5269443254', 
+                c.customer_id, 
+                'Lenna', 
+                'Darakjy' 
+            FROM customer c
+            WHERE c.street = '1847 12-street' AND c.city = 'Washington' AND c.state = 'MA' AND c.postal_code = '34383' AND c.phone_number = '1153394663' AND email = 'lmulqueen@donquadtech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7356 14-street','San Jose', 'CA', '99759','6977663248', 'lbiddy@rantouch.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C0266219877', 
+                c.customer_id, 
+                'Rolland', 
+                'Arias' 
+            FROM customer c
+            WHERE c.street = '7356 14-street' AND c.city = 'San Jose' AND c.state = 'CA' AND c.postal_code = '99759' AND c.phone_number = '6977663248' AND email = 'lbiddy@rantouch.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3571 8-street','Santa Ana', 'MO', '05864','6625666422', 'ablunk@lexiqvolax.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A5415348781', 
+                c.customer_id, 
+                'Viva', 
+                'Loader' 
+            FROM customer c
+            WHERE c.street = '3571 8-street' AND c.city = 'Santa Ana' AND c.state = 'MO' AND c.postal_code = '05864' AND c.phone_number = '6625666422' AND email = 'ablunk@lexiqvolax.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '9861 2-street','Nashville-Davidson', 'MD', '11721','9703539396', 'btomblin@ron-tech.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A1981245672', 
+                c.customer_id, 
+                'Cristal', 
+                'Louissant' 
+            FROM customer c
+            WHERE c.street = '9861 2-street' AND c.city = 'Nashville-Davidson' AND c.state = 'MD' AND c.postal_code = '11721' AND c.phone_number = '9703539396' AND email = 'btomblin@ron-tech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8566 3-street','Kansas City', 'AZ', '20102','1186736394', 'llouissant@sumace.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D5598201847', 
+                c.customer_id, 
+                'Geoffrey', 
+                'Tawil' 
+            FROM customer c
+            WHERE c.street = '8566 3-street' AND c.city = 'Kansas City' AND c.state = 'AZ' AND c.postal_code = '20102' AND c.phone_number = '1186736394' AND email = 'llouissant@sumace.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6972 21-street','Louisville/Jefferson County', 'OR', '91765','1945723781', 'rmauson@zotware.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B0867624567', 
+                c.customer_id, 
+                'Fletcher', 
+                'Vinning' 
+            FROM customer c
+            WHERE c.street = '6972 21-street' AND c.city = 'Louisville/Jefferson County' AND c.state = 'OR' AND c.postal_code = '91765' AND c.phone_number = '1945723781' AND email = 'rmauson@zotware.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5598 10-street','Toledo', 'NC', '07483','6877989061', 'lmenter@domzoom.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A8298794557', 
+                c.customer_id, 
+                'Alaine', 
+                'Mallett' 
+            FROM customer c
+            WHERE c.street = '5598 10-street' AND c.city = 'Toledo' AND c.state = 'NC' AND c.postal_code = '07483' AND c.phone_number = '6877989061' AND email = 'lmenter@domzoom.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5185 5-street','Chandler', 'TX', '69070','8586279036', 'smaillard@kinnamplus.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B1731449781', 
+                c.customer_id, 
+                'Bulah', 
+                'Weight' 
+            FROM customer c
+            WHERE c.street = '5185 5-street' AND c.city = 'Chandler' AND c.state = 'TX' AND c.postal_code = '69070' AND c.phone_number = '8586279036' AND email = 'smaillard@kinnamplus.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '332 17-street','Phoenix', 'AZ', '27501','3298074765', NULL);
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A1309865728', 
+                c.customer_id, 
+                'Ryan', 
+                'Feichtner' 
+            FROM customer c
+            WHERE c.street = '332 17-street' AND c.city = 'Phoenix' AND c.state = 'AZ' AND c.postal_code = '27501' AND c.phone_number = '3298074765' AND email = NULL;
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3838 20-street','Los Angeles', 'CA', '89056','1161409373', 'mstoltzman@dambase.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C6109199686', 
+                c.customer_id, 
+                'Lorean', 
+                'Daufeldt' 
+            FROM customer c
+            WHERE c.street = '3838 20-street' AND c.city = 'Los Angeles' AND c.state = 'CA' AND c.postal_code = '89056' AND c.phone_number = '1161409373' AND email = 'mstoltzman@dambase.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1218 15-street','Glendale', 'TX', '87980','3626595706', 'lgreenbush@green-plus.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A7586405617', 
+                c.customer_id, 
+                'Theola', 
+                'Bruschke' 
+            FROM customer c
+            WHERE c.street = '1218 15-street' AND c.city = 'Glendale' AND c.state = 'TX' AND c.postal_code = '87980' AND c.phone_number = '3626595706' AND email = 'lgreenbush@green-plus.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6040 7-street','Riverside', 'TX', '69644','9145346288', 'fknipp@kinnamplus.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C3378134863', 
+                c.customer_id, 
+                'Wynell', 
+                'Bookamer' 
+            FROM customer c
+            WHERE c.street = '6040 7-street' AND c.city = 'Riverside' AND c.state = 'TX' AND c.postal_code = '69644' AND c.phone_number = '9145346288' AND email = 'fknipp@kinnamplus.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1020 9-street','Lincoln', 'NY', '83625','5428643409', 'lgood@konex.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C5341904042', 
+                c.customer_id, 
+                'Bernardine', 
+                'Estell' 
+            FROM customer c
+            WHERE c.street = '1020 9-street' AND c.city = 'Lincoln' AND c.state = 'NY' AND c.postal_code = '83625' AND c.phone_number = '5428643409' AND email = 'lgood@konex.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2570 10-street','Louisville/Jefferson County', 'OR', '34860','1192412616', 'rscriven@xx-holding.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B4608992876', 
+                c.customer_id, 
+                'Iluminada', 
+                'Francescon' 
+            FROM customer c
+            WHERE c.street = '2570 10-street' AND c.city = 'Louisville/Jefferson County' AND c.state = 'OR' AND c.postal_code = '34860' AND c.phone_number = '1192412616' AND email = 'rscriven@xx-holding.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6080 2-street','Laredo', 'VA', '01528','2561092135', 'qsergi@faxquote.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A6689897244', 
+                c.customer_id, 
+                'Lettie', 
+                'Perruzza' 
+            FROM customer c
+            WHERE c.street = '6080 2-street' AND c.city = 'Laredo' AND c.state = 'VA' AND c.postal_code = '01528' AND c.phone_number = '2561092135' AND email = 'qsergi@faxquote.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2407 17-street','Madison', 'TX', '57664','1340832331', 'epalaia@labdrill.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A2135848728', 
+                c.customer_id, 
+                'Avery', 
+                'Reitler' 
+            FROM customer c
+            WHERE c.street = '2407 17-street' AND c.city = 'Madison' AND c.state = 'TX' AND c.postal_code = '57664' AND c.phone_number = '1340832331' AND email = 'epalaia@labdrill.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8385 15-street','Scottsdale', 'NV', '97285','6597031398', 'ryori@konex.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C2838238369', 
+                c.customer_id, 
+                'Skye', 
+                'Rodenberger' 
+            FROM customer c
+            WHERE c.street = '8385 15-street' AND c.city = 'Scottsdale' AND c.state = 'NV' AND c.postal_code = '97285' AND c.phone_number = '6597031398' AND email = 'ryori@konex.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '851 10-street','Albuquerque', 'AZ', '68443','8353310800', 'cpedrozo@isdom.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A9149940556', 
+                c.customer_id, 
+                'Cathrine', 
+                'Tawil' 
+            FROM customer c
+            WHERE c.street = '851 10-street' AND c.city = 'Albuquerque' AND c.state = 'AZ' AND c.postal_code = '68443' AND c.phone_number = '8353310800' AND email = 'cpedrozo@isdom.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7241 2-street','North Las Vegas', 'CA', '80181','1424595432', 'spatak@kinnamplus.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D0665878931', 
+                c.customer_id, 
+                'Nan', 
+                'Butzen' 
+            FROM customer c
+            WHERE c.street = '7241 2-street' AND c.city = 'North Las Vegas' AND c.state = 'CA' AND c.postal_code = '80181' AND c.phone_number = '1424595432' AND email = 'spatak@kinnamplus.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7813 17-street','Detroit', 'MI', '93918','9305091236', 'cgibes@rangreen.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B0838220816', 
+                c.customer_id, 
+                'Leota', 
+                'Bourbon' 
+            FROM customer c
+            WHERE c.street = '7813 17-street' AND c.city = 'Detroit' AND c.state = 'MI' AND c.postal_code = '93918' AND c.phone_number = '9305091236' AND email = 'cgibes@rangreen.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4515 2-street','Winston-Salem', 'AZ', '06066','0916869287', NULL);
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D6889152867', 
+                c.customer_id, 
+                'Kanisha', 
+                'Flister' 
+            FROM customer c
+            WHERE c.street = '4515 2-street' AND c.city = 'Winston-Salem' AND c.state = 'AZ' AND c.postal_code = '06066' AND c.phone_number = '0916869287' AND email = NULL;
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1650 15-street','Henderson', 'NE', '95208','9304344770', 'svanausdal@donquadtech.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C1967459004', 
+                c.customer_id, 
+                'Mona', 
+                'Reitler' 
+            FROM customer c
+            WHERE c.street = '1650 15-street' AND c.city = 'Henderson' AND c.state = 'NE' AND c.postal_code = '95208' AND c.phone_number = '9304344770' AND email = 'svanausdal@donquadtech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6765 14-street','Austin', 'TX', '95597','1833691250', 'cyaw@donware.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A1663169974', 
+                c.customer_id, 
+                'Gilma', 
+                'Poullion' 
+            FROM customer c
+            WHERE c.street = '6765 14-street' AND c.city = 'Austin' AND c.state = 'TX' AND c.postal_code = '95597' AND c.phone_number = '1833691250' AND email = 'cyaw@donware.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '971 13-street','Chesapeake', 'AZ', '99403','5295956267', 'abiddy@scottech.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A9525842110', 
+                c.customer_id, 
+                'Bernardine', 
+                'Hochard' 
+            FROM customer c
+            WHERE c.street = '971 13-street' AND c.city = 'Chesapeake' AND c.state = 'AZ' AND c.postal_code = '99403' AND c.phone_number = '5295956267' AND email = 'abiddy@scottech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '329 14-street','Seattle', 'WA', '38898','2893491737', 'gdallen@goodsilron.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C0222944298', 
+                c.customer_id, 
+                'Cristy', 
+                'Corrington' 
+            FROM customer c
+            WHERE c.street = '329 14-street' AND c.city = 'Seattle' AND c.state = 'WA' AND c.postal_code = '38898' AND c.phone_number = '2893491737' AND email = 'gdallen@goodsilron.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6166 20-street','Aurora', 'CA', '18677','5974625448', 'avonasek@domzoom.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D3731035683', 
+                c.customer_id, 
+                'Luisa', 
+                'Drymon' 
+            FROM customer c
+            WHERE c.street = '6166 20-street' AND c.city = 'Aurora' AND c.state = 'CA' AND c.postal_code = '18677' AND c.phone_number = '5974625448' AND email = 'avonasek@domzoom.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6915 2-street','Tampa', 'HI', '09762','7679091004', 'lhalter@ron-tech.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C5399342731', 
+                c.customer_id, 
+                'Cherry', 
+                'Bourbon' 
+            FROM customer c
+            WHERE c.street = '6915 2-street' AND c.city = 'Tampa' AND c.state = 'HI' AND c.postal_code = '09762' AND c.phone_number = '7679091004' AND email = 'lhalter@ron-tech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '523 8-street','New Orleans', 'CA', '00576','2584517744', 'cnachor@finhigh.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B6710742108', 
+                c.customer_id, 
+                'Kimberlie', 
+                'Skulski' 
+            FROM customer c
+            WHERE c.street = '523 8-street' AND c.city = 'New Orleans' AND c.state = 'CA' AND c.postal_code = '00576' AND c.phone_number = '2584517744' AND email = 'cnachor@finhigh.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2127 6-street','Hialeah', 'NV', '22042','3808291053', 'bskulski@opentech.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C7183960183', 
+                c.customer_id, 
+                'Amie', 
+                'Pelkowski' 
+            FROM customer c
+            WHERE c.street = '2127 6-street' AND c.city = 'Hialeah' AND c.state = 'NV' AND c.postal_code = '22042' AND c.phone_number = '3808291053' AND email = 'bskulski@opentech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '210 5-street','Chandler', 'TX', '73540','5337539456', 'csarao@gogozoom.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B4419028056', 
+                c.customer_id, 
+                'Ma', 
+                'Caiafa' 
+            FROM customer c
+            WHERE c.street = '210 5-street' AND c.city = 'Chandler' AND c.state = 'TX' AND c.postal_code = '73540' AND c.phone_number = '5337539456' AND email = 'csarao@gogozoom.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6758 16-street','Wichita', 'TX', '85885','8697320215', 'hgabisi@dambase.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D5713874463', 
+                c.customer_id, 
+                'Jina', 
+                'Kitty' 
+            FROM customer c
+            WHERE c.street = '6758 16-street' AND c.city = 'Wichita' AND c.state = 'TX' AND c.postal_code = '85885' AND c.phone_number = '8697320215' AND email = 'hgabisi@dambase.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2140 6-street','St. Petersburg', 'AZ', '60868','3788513921', 'erhymes@finjob.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A4599693068', 
+                c.customer_id, 
+                'Raymon', 
+                'Monterrubio' 
+            FROM customer c
+            WHERE c.street = '2140 6-street' AND c.city = 'St. Petersburg' AND c.state = 'AZ' AND c.postal_code = '60868' AND c.phone_number = '3788513921' AND email = 'erhymes@finjob.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '9966 11-street','Chula Vista', 'IN', '78585','5630558686', 'ccallaro@donquadtech.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C3839849069', 
+                c.customer_id, 
+                'Melodie', 
+                'Tollner' 
+            FROM customer c
+            WHERE c.street = '9966 11-street' AND c.city = 'Chula Vista' AND c.state = 'IN' AND c.postal_code = '78585' AND c.phone_number = '5630558686' AND email = 'ccallaro@donquadtech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2380 16-street','Oklahoma City', 'KY', '88771','7621638492', 'spalaia@stanredtax.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B3290593615', 
+                c.customer_id, 
+                'Nu', 
+                'Perigo' 
+            FROM customer c
+            WHERE c.street = '2380 16-street' AND c.city = 'Oklahoma City' AND c.state = 'KY' AND c.postal_code = '88771' AND c.phone_number = '7621638492' AND email = 'spalaia@stanredtax.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2955 11-street','Virginia Beach', 'GA', '99728','6139626394', 'bdallen@isdom.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C3612640531', 
+                c.customer_id, 
+                'Herman', 
+                'Waycott' 
+            FROM customer c
+            WHERE c.street = '2955 11-street' AND c.city = 'Virginia Beach' AND c.state = 'GA' AND c.postal_code = '99728' AND c.phone_number = '6139626394' AND email = 'bdallen@isdom.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4606 10-street','Nashville-Davidson', 'MD', '77960','2349028878', 'dstuer@donware.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D9676746157', 
+                c.customer_id, 
+                'Lashandra', 
+                'Buzick' 
+            FROM customer c
+            WHERE c.street = '4606 10-street' AND c.city = 'Nashville-Davidson' AND c.state = 'MD' AND c.postal_code = '77960' AND c.phone_number = '2349028878' AND email = 'dstuer@donware.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '9701 4-street','Sacramento', 'CA', '86941','5258372667', 'slacovara@statholdings.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B9892813591', 
+                c.customer_id, 
+                'Izetta', 
+                'Shields' 
+            FROM customer c
+            WHERE c.street = '9701 4-street' AND c.city = 'Sacramento' AND c.state = 'CA' AND c.postal_code = '86941' AND c.phone_number = '5258372667' AND email = 'slacovara@statholdings.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4864 5-street','Kansas City', 'AZ', '33258','4287858845', 'tfoller@codehow.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B6082349948', 
+                c.customer_id, 
+                'Ceola', 
+                'Sawchuk' 
+            FROM customer c
+            WHERE c.street = '4864 5-street' AND c.city = 'Kansas City' AND c.state = 'AZ' AND c.postal_code = '33258' AND c.phone_number = '4287858845' AND email = 'tfoller@codehow.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6922 3-street','Charlotte', 'NC', '30565','3349957393', 'dchui@ganjaflex.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B6334165149', 
+                c.customer_id, 
+                'Jovita', 
+                'Sayaphon' 
+            FROM customer c
+            WHERE c.street = '6922 3-street' AND c.city = 'Charlotte' AND c.state = 'NC' AND c.postal_code = '30565' AND c.phone_number = '3349957393' AND email = 'dchui@ganjaflex.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2994 14-street','San Francisco', 'CA', '46157','6724009066', 'aonofrio@finhigh.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A9361688715', 
+                c.customer_id, 
+                'Mozell', 
+                'Angalich' 
+            FROM customer c
+            WHERE c.street = '2994 14-street' AND c.city = 'San Francisco' AND c.state = 'CA' AND c.postal_code = '46157' AND c.phone_number = '6724009066' AND email = 'aonofrio@finhigh.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '648 16-street','San Antonio', 'TX', '70558','4697890951', 'cmirafuentes@konmatfix.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D2498998888', 
+                c.customer_id, 
+                'Melodie', 
+                'Paulas' 
+            FROM customer c
+            WHERE c.street = '648 16-street' AND c.city = 'San Antonio' AND c.state = 'TX' AND c.postal_code = '70558' AND c.phone_number = '4697890951' AND email = 'cmirafuentes@konmatfix.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2748 15-street','Atlanta', 'CO', '62904','0225659944', 'gkohl@ron-tech.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B6923660033', 
+                c.customer_id, 
+                'Nu', 
+                'Theodorov' 
+            FROM customer c
+            WHERE c.street = '2748 15-street' AND c.city = 'Atlanta' AND c.state = 'CO' AND c.postal_code = '62904' AND c.phone_number = '0225659944' AND email = 'gkohl@ron-tech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8162 19-street','Oklahoma City', 'KY', '08209','6799556341', 'jklusman@xx-zobam.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D4519725290', 
+                c.customer_id, 
+                'Lucina', 
+                'Ostolaza' 
+            FROM customer c
+            WHERE c.street = '8162 19-street' AND c.city = 'Oklahoma City' AND c.state = 'KY' AND c.postal_code = '08209' AND c.phone_number = '6799556341' AND email = 'jklusman@xx-zobam.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5546 6-street','Houston', 'TX', '23924','5207437483', 'mvocelka@ron-tech.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B5346544142', 
+                c.customer_id, 
+                'Eun', 
+                'Smith' 
+            FROM customer c
+            WHERE c.street = '5546 6-street' AND c.city = 'Houston' AND c.state = 'TX' AND c.postal_code = '23924' AND c.phone_number = '5207437483' AND email = 'mvocelka@ron-tech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2691 12-street','Richmond', 'CA', '98233','8565923131', 'gsengbusch@doncon.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C8271029908', 
+                c.customer_id, 
+                'Veronika', 
+                'Dilliard' 
+            FROM customer c
+            WHERE c.street = '2691 12-street' AND c.city = 'Richmond' AND c.state = 'CA' AND c.postal_code = '98233' AND c.phone_number = '8565923131' AND email = 'gsengbusch@doncon.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3643 9-street','Anaheim', 'CA', '10393','2154011795', 'etawil@plexzap.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B1961357406', 
+                c.customer_id, 
+                'Art', 
+                'Devreese' 
+            FROM customer c
+            WHERE c.street = '3643 9-street' AND c.city = 'Anaheim' AND c.state = 'CA' AND c.postal_code = '10393' AND c.phone_number = '2154011795' AND email = 'etawil@plexzap.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8321 18-street','Chandler', 'TX', '83560','6561738907', 'cpaskin@nam-zim.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D0473669739', 
+                c.customer_id, 
+                'Laurel', 
+                'Jurney' 
+            FROM customer c
+            WHERE c.street = '8321 18-street' AND c.city = 'Chandler' AND c.state = 'TX' AND c.postal_code = '83560' AND c.phone_number = '6561738907' AND email = 'cpaskin@nam-zim.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4487 1-street','Newark', 'TX', '01298','9456243552', 'dweirather@iselectrics.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D7912550520', 
+                c.customer_id, 
+                'Erick', 
+                'Hoogland' 
+            FROM customer c
+            WHERE c.street = '4487 1-street' AND c.city = 'Newark' AND c.state = 'TX' AND c.postal_code = '01298' AND c.phone_number = '9456243552' AND email = 'dweirather@iselectrics.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5327 7-street','Phoenix', 'AZ', '30814','5326760716', 'lsyrop@j-texon.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B8859030244', 
+                c.customer_id, 
+                'Estrella', 
+                'Calvaresi' 
+            FROM customer c
+            WHERE c.street = '5327 7-street' AND c.city = 'Phoenix' AND c.state = 'AZ' AND c.postal_code = '30814' AND c.phone_number = '5326760716' AND email = 'lsyrop@j-texon.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1356 1-street','Anchorage', 'CA', '78858','2812754411', 'mpatak@j-texon.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B4925230252', 
+                c.customer_id, 
+                'Youlanda', 
+                'Karpin' 
+            FROM customer c
+            WHERE c.street = '1356 1-street' AND c.city = 'Anchorage' AND c.state = 'CA' AND c.postal_code = '78858' AND c.phone_number = '2812754411' AND email = 'mpatak@j-texon.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3617 12-street','Columbus', 'OH', '68079','1575733870', 'lspickerman@xx-zobam.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A0461291890', 
+                c.customer_id, 
+                'Joni', 
+                'Acuff' 
+            FROM customer c
+            WHERE c.street = '3617 12-street' AND c.city = 'Columbus' AND c.state = 'OH' AND c.postal_code = '68079' AND c.phone_number = '1575733870' AND email = 'lspickerman@xx-zobam.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2429 14-street','Boise City', 'VA', '20778','9417420903', 'smcdoniel@kan-code.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A7800747478', 
+                c.customer_id, 
+                'Kate', 
+                'Nunlee' 
+            FROM customer c
+            WHERE c.street = '2429 14-street' AND c.city = 'Boise City' AND c.state = 'VA' AND c.postal_code = '20778' AND c.phone_number = '9417420903' AND email = 'smcdoniel@kan-code.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1078 3-street','El Paso', 'TX', '50266','9423735498', 'ecorrio@green-plus.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B6010570650', 
+                c.customer_id, 
+                'Salome', 
+                'Harnos' 
+            FROM customer c
+            WHERE c.street = '1078 3-street' AND c.city = 'El Paso' AND c.state = 'TX' AND c.postal_code = '50266' AND c.phone_number = '9423735498' AND email = 'ecorrio@green-plus.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6826 18-street','Long Beach', 'MO', '63895','8177264055', 'dcolaizzo@faxquote.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B1715775889', 
+                c.customer_id, 
+                'Zona', 
+                'Discipio' 
+            FROM customer c
+            WHERE c.street = '6826 18-street' AND c.city = 'Long Beach' AND c.state = 'MO' AND c.postal_code = '63895' AND c.phone_number = '8177264055' AND email = 'dcolaizzo@faxquote.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2943 19-street','Garland', 'FL', '67153','9181127811', 'hgesick@inity.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C4774668646', 
+                c.customer_id, 
+                'Lonny', 
+                'Patak' 
+            FROM customer c
+            WHERE c.street = '2943 19-street' AND c.city = 'Garland' AND c.state = 'FL' AND c.postal_code = '67153' AND c.phone_number = '9181127811' AND email = 'hgesick@inity.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7511 16-street','Las Vegas', 'WI', '09252','3480698729', 'lwildfong@ganjaflex.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D6100357446', 
+                c.customer_id, 
+                'Helga', 
+                'Leto' 
+            FROM customer c
+            WHERE c.street = '7511 16-street' AND c.city = 'Las Vegas' AND c.state = 'WI' AND c.postal_code = '09252' AND c.phone_number = '3480698729' AND email = 'lwildfong@ganjaflex.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '265 5-street','Sacramento', 'CA', '50008','4858534746', 'mtollner@green-plus.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C8307257184', 
+                c.customer_id, 
+                'Ettie', 
+                'Brachle' 
+            FROM customer c
+            WHERE c.street = '265 5-street' AND c.city = 'Sacramento' AND c.state = 'CA' AND c.postal_code = '50008' AND c.phone_number = '4858534746' AND email = 'mtollner@green-plus.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6555 6-street','Fremont', 'ID', '29564','5815008357', 'dfishburne@goodsilron.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A1518047114', 
+                c.customer_id, 
+                'Joni', 
+                'Seewald' 
+            FROM customer c
+            WHERE c.street = '6555 6-street' AND c.city = 'Fremont' AND c.state = 'ID' AND c.postal_code = '29564' AND c.phone_number = '5815008357' AND email = 'dfishburne@goodsilron.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1284 11-street','Detroit', 'MI', '25947','4579186110', 'jmonarrez@zoomit.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B9346967347', 
+                c.customer_id, 
+                'Dominque', 
+                'Karpin' 
+            FROM customer c
+            WHERE c.street = '1284 11-street' AND c.city = 'Detroit' AND c.state = 'MI' AND c.postal_code = '25947' AND c.phone_number = '4579186110' AND email = 'jmonarrez@zoomit.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7114 11-street','San Francisco', 'CA', '38506','0326553009', 'mrulapaugh@condax.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D0760894831', 
+                c.customer_id, 
+                'Tyra', 
+                'Herritt' 
+            FROM customer c
+            WHERE c.street = '7114 11-street' AND c.city = 'San Francisco' AND c.state = 'CA' AND c.postal_code = '38506' AND c.phone_number = '0326553009' AND email = 'mrulapaugh@condax.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6100 6-street','Raleigh', 'FL', '10628','6192934321', 'nangalich@xx-holding.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A2836727024', 
+                c.customer_id, 
+                'Lashaunda', 
+                'Paskin' 
+            FROM customer c
+            WHERE c.street = '6100 6-street' AND c.city = 'Raleigh' AND c.state = 'FL' AND c.postal_code = '10628' AND c.phone_number = '6192934321' AND email = 'nangalich@xx-holding.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8676 11-street','Denver', 'CO', '70435','6209568005', 'llueckenbach@condax.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A7410218307', 
+                c.customer_id, 
+                'Detra', 
+                'Palaia' 
+            FROM customer c
+            WHERE c.street = '8676 11-street' AND c.city = 'Denver' AND c.state = 'CO' AND c.postal_code = '70435' AND c.phone_number = '6209568005' AND email = 'llueckenbach@condax.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '533 9-street','Cincinnati', 'MN', '78389','1278664355', 'hfigeroa@bioholding.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A1440687124', 
+                c.customer_id, 
+                'Erick', 
+                'Kardas' 
+            FROM customer c
+            WHERE c.street = '533 9-street' AND c.city = 'Cincinnati' AND c.state = 'MN' AND c.postal_code = '78389' AND c.phone_number = '1278664355' AND email = 'hfigeroa@bioholding.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5513 3-street','Baton Rouge', 'TX', '69366','4218938014', NULL);
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D1357716930', 
+                c.customer_id, 
+                'Virgina', 
+                'Oldroyd' 
+            FROM customer c
+            WHERE c.street = '5513 3-street' AND c.city = 'Baton Rouge' AND c.state = 'TX' AND c.postal_code = '69366' AND c.phone_number = '4218938014' AND email = NULL;
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7975 7-street','Louisville/Jefferson County', 'OR', '27758','9290710024', 'psuell@xx-holding.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A3570377285', 
+                c.customer_id, 
+                'Abel', 
+                'Uyetake' 
+            FROM customer c
+            WHERE c.street = '7975 7-street' AND c.city = 'Louisville/Jefferson County' AND c.state = 'OR' AND c.postal_code = '27758' AND c.phone_number = '9290710024' AND email = 'psuell@xx-holding.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1970 3-street','Los Angeles', 'CA', '81816','1857291621', 'awiklund@toughzap.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D8819452846', 
+                c.customer_id, 
+                'Bulah', 
+                'Boulter' 
+            FROM customer c
+            WHERE c.street = '1970 3-street' AND c.city = 'Los Angeles' AND c.state = 'CA' AND c.postal_code = '81816' AND c.phone_number = '1857291621' AND email = 'awiklund@toughzap.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3052 8-street','Baton Rouge', 'TX', '24299','4735874159', 'pfillingim@ganjaflex.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D7602785929', 
+                c.customer_id, 
+                'Aja', 
+                'Juvera' 
+            FROM customer c
+            WHERE c.street = '3052 8-street' AND c.city = 'Baton Rouge' AND c.state = 'TX' AND c.postal_code = '24299' AND c.phone_number = '4735874159' AND email = 'pfillingim@ganjaflex.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3688 8-street','St. Louis', 'CA', '08220','5363330488', 'bdiscipio@sonron.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B9782424828', 
+                c.customer_id, 
+                'Chaya', 
+                'Rochin' 
+            FROM customer c
+            WHERE c.street = '3688 8-street' AND c.city = 'St. Louis' AND c.state = 'CA' AND c.postal_code = '08220' AND c.phone_number = '5363330488' AND email = 'bdiscipio@sonron.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6941 10-street','Norfolk', 'NC', '43730','8565341402', 'sagramonte@bioholding.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A2580734753', 
+                c.customer_id, 
+                'Pamella', 
+                'Klusman' 
+            FROM customer c
+            WHERE c.street = '6941 10-street' AND c.city = 'Norfolk' AND c.state = 'NC' AND c.postal_code = '43730' AND c.phone_number = '8565341402' AND email = 'sagramonte@bioholding.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '452 11-street','Chesapeake', 'AZ', '63275','1122640314', 'piturbide@rangreen.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B3918027523', 
+                c.customer_id, 
+                'Lorrie', 
+                'Briddick' 
+            FROM customer c
+            WHERE c.street = '452 11-street' AND c.city = 'Chesapeake' AND c.state = 'AZ' AND c.postal_code = '63275' AND c.phone_number = '1122640314' AND email = 'piturbide@rangreen.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '808 4-street','Sacramento', 'CA', '25310','8425551940', 'tasar@hottechi.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B2598969914', 
+                c.customer_id, 
+                'Clay', 
+                'Yori' 
+            FROM customer c
+            WHERE c.street = '808 4-street' AND c.city = 'Sacramento' AND c.state = 'CA' AND c.postal_code = '25310' AND c.phone_number = '8425551940' AND email = 'tasar@hottechi.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8270 3-street','Glendale', 'TX', '52581','1855539320', 'ylimmel@singletechno.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D2600960022', 
+                c.customer_id, 
+                'Lilli', 
+                'Buvens' 
+            FROM customer c
+            WHERE c.street = '8270 3-street' AND c.city = 'Glendale' AND c.state = 'TX' AND c.postal_code = '52581' AND c.phone_number = '1855539320' AND email = 'ylimmel@singletechno.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6775 1-street','Anchorage', 'CA', '28978','4151614989', 'slary@dalttechnology.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B8786618373', 
+                c.customer_id, 
+                'Cammy', 
+                'Kulzer' 
+            FROM customer c
+            WHERE c.street = '6775 1-street' AND c.city = 'Anchorage' AND c.state = 'CA' AND c.postal_code = '28978' AND c.phone_number = '4151614989' AND email = 'slary@dalttechnology.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5363 11-street','Anaheim', 'CA', '93869','4106787859', 'wblackwood@donware.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D5269489570', 
+                c.customer_id, 
+                'Adell', 
+                'Dewar' 
+            FROM customer c
+            WHERE c.street = '5363 11-street' AND c.city = 'Anaheim' AND c.state = 'CA' AND c.postal_code = '93869' AND c.phone_number = '4106787859' AND email = 'wblackwood@donware.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4442 11-street','Riverside', 'TX', '96878','1173651664', 'dzagen@donware.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A3383028473', 
+                c.customer_id, 
+                'Benedict', 
+                'Maile' 
+            FROM customer c
+            WHERE c.street = '4442 11-street' AND c.city = 'Riverside' AND c.state = 'TX' AND c.postal_code = '96878' AND c.phone_number = '1173651664' AND email = 'dzagen@donware.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2170 13-street','Raleigh', 'FL', '82803','8740599520', 'rfigeroa@dambase.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A4532111602', 
+                c.customer_id, 
+                'Krissy', 
+                'Asar' 
+            FROM customer c
+            WHERE c.street = '2170 13-street' AND c.city = 'Raleigh' AND c.state = 'FL' AND c.postal_code = '82803' AND c.phone_number = '8740599520' AND email = 'rfigeroa@dambase.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4713 8-street','San Jose', 'CA', '54065','4338685121', 'sennaco@donware.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A0135356446', 
+                c.customer_id, 
+                'Marti', 
+                'Sarbacher' 
+            FROM customer c
+            WHERE c.street = '4713 8-street' AND c.city = 'San Jose' AND c.state = 'CA' AND c.postal_code = '54065' AND c.phone_number = '4338685121' AND email = 'sennaco@donware.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5674 15-street','Irving', 'AZ', '84229','4780845956', 'ydenooyer@hottechi.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A9302873941', 
+                c.customer_id, 
+                'Helene', 
+                'Tollner' 
+            FROM customer c
+            WHERE c.street = '5674 15-street' AND c.city = 'Irving' AND c.state = 'AZ' AND c.postal_code = '84229' AND c.phone_number = '4780845956' AND email = 'ydenooyer@hottechi.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3723 8-street','Chandler', 'TX', '99594','2802965981', 'bperruzza@dambase.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A4688720947', 
+                c.customer_id, 
+                'Elvera', 
+                'Kiel' 
+            FROM customer c
+            WHERE c.street = '3723 8-street' AND c.city = 'Chandler' AND c.state = 'TX' AND c.postal_code = '99594' AND c.phone_number = '2802965981' AND email = 'bperruzza@dambase.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6084 21-street','Oklahoma City', 'KY', '84479','1663206433', 'gherritt@kinnamplus.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C5211782393', 
+                c.customer_id, 
+                'Arthur', 
+                'Colla' 
+            FROM customer c
+            WHERE c.street = '6084 21-street' AND c.city = 'Oklahoma City' AND c.state = 'KY' AND c.postal_code = '84479' AND c.phone_number = '1663206433' AND email = 'gherritt@kinnamplus.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1105 17-street','Stockton', 'OH', '34026','4117001917', 'skonopacki@kan-code.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C6220644674', 
+                c.customer_id, 
+                'Shenika', 
+                'Dorshorst' 
+            FROM customer c
+            WHERE c.street = '1105 17-street' AND c.city = 'Stockton' AND c.state = 'OH' AND c.postal_code = '34026' AND c.phone_number = '4117001917' AND email = 'skonopacki@kan-code.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '925 5-street','Chicago', 'IL', '41937','3577974876', 'fcartan@hatfan.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C2423333296', 
+                c.customer_id, 
+                'Melodie', 
+                'Morocco' 
+            FROM customer c
+            WHERE c.street = '925 5-street' AND c.city = 'Chicago' AND c.state = 'IL' AND c.postal_code = '41937' AND c.phone_number = '3577974876' AND email = 'fcartan@hatfan.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1166 6-street','San Antonio', 'TX', '48258','5251353255', 'ajeanty@inity.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B2638494209', 
+                c.customer_id, 
+                'Nickolas', 
+                'Manno' 
+            FROM customer c
+            WHERE c.street = '1166 6-street' AND c.city = 'San Antonio' AND c.state = 'TX' AND c.postal_code = '48258' AND c.phone_number = '5251353255' AND email = 'ajeanty@inity.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '9431 5-street','Lubbock', 'CA', '19397','6638700004', 'moles@rantouch.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A3910339352', 
+                c.customer_id, 
+                'Dierdre', 
+                'Stimmel' 
+            FROM customer c
+            WHERE c.street = '9431 5-street' AND c.city = 'Lubbock' AND c.state = 'CA' AND c.postal_code = '19397' AND c.phone_number = '6638700004' AND email = 'moles@rantouch.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1676 3-street','Milwaukee', 'NM', '56460','1467865334', 'gmaillard@rangreen.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C0844073746', 
+                c.customer_id, 
+                'Jenelle', 
+                'Brideau' 
+            FROM customer c
+            WHERE c.street = '1676 3-street' AND c.city = 'Milwaukee' AND c.state = 'NM' AND c.postal_code = '56460' AND c.phone_number = '1467865334' AND email = 'gmaillard@rangreen.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '42 16-street','Mesa', 'VA', '72497','0574418772', 'msayaphon@gogozoom.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B8229530311', 
+                c.customer_id, 
+                'Leslie', 
+                'Chui' 
+            FROM customer c
+            WHERE c.street = '42 16-street' AND c.city = 'Mesa' AND c.state = 'VA' AND c.postal_code = '72497' AND c.phone_number = '0574418772' AND email = 'msayaphon@gogozoom.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7797 10-street','Tucson', 'CA', '42250','6962135593', 'tabdallah@stanredtax.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D0233458616', 
+                c.customer_id, 
+                'Regenia', 
+                'Fortino' 
+            FROM customer c
+            WHERE c.street = '7797 10-street' AND c.city = 'Tucson' AND c.state = 'CA' AND c.postal_code = '42250' AND c.phone_number = '6962135593' AND email = 'tabdallah@stanredtax.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2706 15-street','St. Louis', 'CA', '84193','0771910514', 'lhanafan@kinnamplus.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A4604249337', 
+                c.customer_id, 
+                'Jerry', 
+                'Butzen' 
+            FROM customer c
+            WHERE c.street = '2706 15-street' AND c.city = 'St. Louis' AND c.state = 'CA' AND c.postal_code = '84193' AND c.phone_number = '0771910514' AND email = 'lhanafan@kinnamplus.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4184 6-street','Nashville-Davidson', 'MD', '46138','1176395163', 'cdhamer@donquadtech.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B6364451946', 
+                c.customer_id, 
+                'Viva', 
+                'Hoffis' 
+            FROM customer c
+            WHERE c.street = '4184 6-street' AND c.city = 'Nashville-Davidson' AND c.state = 'MD' AND c.postal_code = '46138' AND c.phone_number = '1176395163' AND email = 'cdhamer@donquadtech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7953 21-street','Fresno', 'CA', '06358','7840890296', 'ajulia@codehow.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C7548135047', 
+                c.customer_id, 
+                'Lashawnda', 
+                'Mirafuentes' 
+            FROM customer c
+            WHERE c.street = '7953 21-street' AND c.city = 'Fresno' AND c.state = 'CA' AND c.postal_code = '06358' AND c.phone_number = '7840890296' AND email = 'ajulia@codehow.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '9963 13-street','St. Louis', 'CA', '23085','1642986115', 'cmccullan@zumgoity.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A7994838891', 
+                c.customer_id, 
+                'Ruthann', 
+                'Riden' 
+            FROM customer c
+            WHERE c.street = '9963 13-street' AND c.city = 'St. Louis' AND c.state = 'CA' AND c.postal_code = '23085' AND c.phone_number = '1642986115' AND email = 'cmccullan@zumgoity.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7349 6-street','Irving', 'AZ', '26660','1227792338', 'cflosi@kinnamplus.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B1653942479', 
+                c.customer_id, 
+                'Vi', 
+                'Munis' 
+            FROM customer c
+            WHERE c.street = '7349 6-street' AND c.city = 'Irving' AND c.state = 'AZ' AND c.postal_code = '26660' AND c.phone_number = '1227792338' AND email = 'cflosi@kinnamplus.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2180 9-street','Fort Wayne', 'FL', '95844','9657645181', 'lscheyer@nam-zim.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D4371833181', 
+                c.customer_id, 
+                'Carmen', 
+                'Callaro' 
+            FROM customer c
+            WHERE c.street = '2180 9-street' AND c.city = 'Fort Wayne' AND c.state = 'FL' AND c.postal_code = '95844' AND c.phone_number = '9657645181' AND email = 'lscheyer@nam-zim.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3167 7-street','San Diego', 'CA', '12818','1918490671', 'cmartabano@openlane.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B5738835693', 
+                c.customer_id, 
+                'Eun', 
+                'Ahle' 
+            FROM customer c
+            WHERE c.street = '3167 7-street' AND c.city = 'San Diego' AND c.state = 'CA' AND c.postal_code = '12818' AND c.phone_number = '1918490671' AND email = 'cmartabano@openlane.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3288 10-street','Fremont', 'ID', '37586','4806391667', 'afortino@funholding.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C2776254573', 
+                c.customer_id, 
+                'Selma', 
+                'Smith' 
+            FROM customer c
+            WHERE c.street = '3288 10-street' AND c.city = 'Fremont' AND c.state = 'ID' AND c.postal_code = '37586' AND c.phone_number = '4806391667' AND email = 'afortino@funholding.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2010 15-street','Los Angeles', 'CA', '87887','7279194125', 'mpaa@warephase.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D6650795352', 
+                c.customer_id, 
+                'Gail', 
+                'Tromblay' 
+            FROM customer c
+            WHERE c.street = '2010 15-street' AND c.city = 'Los Angeles' AND c.state = 'CA' AND c.postal_code = '87887' AND c.phone_number = '7279194125' AND email = 'mpaa@warephase.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7133 19-street','Norfolk', 'NC', '83107','8717641687', 'gperin@silis.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A6986218675', 
+                c.customer_id, 
+                'Stephen', 
+                'Poullion' 
+            FROM customer c
+            WHERE c.street = '7133 19-street' AND c.city = 'Norfolk' AND c.state = 'NC' AND c.postal_code = '83107' AND c.phone_number = '8717641687' AND email = 'gperin@silis.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2559 7-street','Albuquerque', 'AZ', '08005','2191200911', 'mchui@statholdings.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A9661106493', 
+                c.customer_id, 
+                'Iluminada', 
+                'Leinenbach' 
+            FROM customer c
+            WHERE c.street = '2559 7-street' AND c.city = 'Albuquerque' AND c.state = 'AZ' AND c.postal_code = '08005' AND c.phone_number = '2191200911' AND email = 'mchui@statholdings.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2931 15-street','Philadelphia', 'PA', '83998','8766862073', NULL);
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C3914994260', 
+                c.customer_id, 
+                'Mattie', 
+                'Malet' 
+            FROM customer c
+            WHERE c.street = '2931 15-street' AND c.city = 'Philadelphia' AND c.state = 'PA' AND c.postal_code = '83998' AND c.phone_number = '8766862073' AND email = NULL;
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2734 8-street','Fresno', 'CA', '60657','9687932029', 'yahle@streethex.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A4366803067', 
+                c.customer_id, 
+                'Rozella', 
+                'Galam' 
+            FROM customer c
+            WHERE c.street = '2734 8-street' AND c.city = 'Fresno' AND c.state = 'CA' AND c.postal_code = '60657' AND c.phone_number = '9687932029' AND email = 'yahle@streethex.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4788 13-street','St. Louis', 'CA', '29561','8452864290', NULL);
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A7722007632', 
+                c.customer_id, 
+                'Cory', 
+                'Gillaspie' 
+            FROM customer c
+            WHERE c.street = '4788 13-street' AND c.city = 'St. Louis' AND c.state = 'CA' AND c.postal_code = '29561' AND c.phone_number = '8452864290' AND email = NULL;
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5981 6-street','Miami', 'CA', '09747','6684801631', 'bpaulas@plussunin.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B3463874026', 
+                c.customer_id, 
+                'Diane', 
+                'Amyot' 
+            FROM customer c
+            WHERE c.street = '5981 6-street' AND c.city = 'Miami' AND c.state = 'CA' AND c.postal_code = '09747' AND c.phone_number = '6684801631' AND email = 'bpaulas@plussunin.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7673 4-street','Dallas', 'TX', '76401','2879694252', 'ecronauer@groovestreet.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D8832785149', 
+                c.customer_id, 
+                'Angella', 
+                'Buzick' 
+            FROM customer c
+            WHERE c.street = '7673 4-street' AND c.city = 'Dallas' AND c.state = 'TX' AND c.postal_code = '76401' AND c.phone_number = '2879694252' AND email = 'ecronauer@groovestreet.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4326 4-street','Omaha', 'NC', '39011','1240555259', 'svanheusen@cancity.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B6301637672', 
+                c.customer_id, 
+                'Myra', 
+                'Luczki' 
+            FROM customer c
+            WHERE c.street = '4326 4-street' AND c.city = 'Omaha' AND c.state = 'NC' AND c.postal_code = '39011' AND c.phone_number = '1240555259' AND email = 'svanheusen@cancity.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6039 19-street','Atlanta', 'CO', '42239','6974941499', 'moles@donquadtech.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B1984877856', 
+                c.customer_id, 
+                'Tiffiny', 
+                'Heintzman' 
+            FROM customer c
+            WHERE c.street = '6039 19-street' AND c.city = 'Atlanta' AND c.state = 'CO' AND c.postal_code = '42239' AND c.phone_number = '6974941499' AND email = 'moles@donquadtech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2024 15-street','Tulsa', 'OH', '14994','6295451915', 'gsarbacher@blackzim.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A2319552942', 
+                c.customer_id, 
+                'Markus', 
+                'Tjepkema' 
+            FROM customer c
+            WHERE c.street = '2024 15-street' AND c.city = 'Tulsa' AND c.state = 'OH' AND c.postal_code = '14994' AND c.phone_number = '6295451915' AND email = 'gsarbacher@blackzim.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2569 5-street','Madison', 'TX', '48103','0243788652', 'mcallaro@bioholding.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D9223276847', 
+                c.customer_id, 
+                'Fatima', 
+                'Semidey' 
+            FROM customer c
+            WHERE c.street = '2569 5-street' AND c.city = 'Madison' AND c.state = 'TX' AND c.postal_code = '48103' AND c.phone_number = '0243788652' AND email = 'mcallaro@bioholding.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5977 11-street','Arlington', 'LA', '44325','5596193040', NULL);
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C7290231462', 
+                c.customer_id, 
+                'Rodolfo', 
+                'Maybury' 
+            FROM customer c
+            WHERE c.street = '5977 11-street' AND c.city = 'Arlington' AND c.state = 'LA' AND c.postal_code = '44325' AND c.phone_number = '5596193040' AND email = NULL;
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8462 15-street','Phoenix', 'AZ', '12799','1236534535', 'jslayton@statholdings.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D5950814801', 
+                c.customer_id, 
+                'Moon', 
+                'Suffield' 
+            FROM customer c
+            WHERE c.street = '8462 15-street' AND c.city = 'Phoenix' AND c.state = 'AZ' AND c.postal_code = '12799' AND c.phone_number = '1236534535' AND email = 'jslayton@statholdings.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7505 19-street','Chula Vista', 'IN', '82493','1838362574', NULL);
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'A8645646644', 
+                c.customer_id, 
+                'Salena', 
+                'Canlas' 
+            FROM customer c
+            WHERE c.street = '7505 19-street' AND c.city = 'Chula Vista' AND c.state = 'IN' AND c.postal_code = '82493' AND c.phone_number = '1838362574' AND email = NULL;
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3624 9-street','Baton Rouge', 'TX', '46412','0716893246', 'rsaulter@dontechi.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D8920288787', 
+                c.customer_id, 
+                'Barbra', 
+                'Birkner' 
+            FROM customer c
+            WHERE c.street = '3624 9-street' AND c.city = 'Baton Rouge' AND c.state = 'TX' AND c.postal_code = '46412' AND c.phone_number = '0716893246' AND email = 'rsaulter@dontechi.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5738 9-street','San Francisco', 'CA', '12065','1156055216', 'imaisto@openlane.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'C5998099065', 
+                c.customer_id, 
+                'Marguerita', 
+                'Delasancha' 
+            FROM customer c
+            WHERE c.street = '5738 9-street' AND c.city = 'San Francisco' AND c.state = 'CA' AND c.postal_code = '12065' AND c.phone_number = '1156055216' AND email = 'imaisto@openlane.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7425 17-street','Los Angeles', 'CA', '48263','7588109962', 'dsaras@treequote.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B8644575091', 
+                c.customer_id, 
+                'Marguerita', 
+                'Kitty' 
+            FROM customer c
+            WHERE c.street = '7425 17-street' AND c.city = 'Los Angeles' AND c.state = 'CA' AND c.postal_code = '48263' AND c.phone_number = '7588109962' AND email = 'dsaras@treequote.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5787 17-street','Columbus', 'OH', '85733','9573149559', 'criopelle@finjob.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'D5227762827', 
+                c.customer_id, 
+                'Howard', 
+                'Meisel' 
+            FROM customer c
+            WHERE c.street = '5787 17-street' AND c.city = 'Columbus' AND c.state = 'OH' AND c.postal_code = '85733' AND c.phone_number = '9573149559' AND email = 'criopelle@finjob.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2955 10-street','Columbus', 'OH', '67662','3109017782', 'mvillanueva@labdrill.com');
+INSERT INTO customerindividual (drivers_license_number, customer_id, first_name, last_name) 
+            SELECT 
+                'B3170194836', 
+                c.customer_id, 
+                'Latrice', 
+                'Hanafan' 
+            FROM customer c
+            WHERE c.street = '2955 10-street' AND c.city = 'Columbus' AND c.state = 'OH' AND c.postal_code = '67662' AND c.phone_number = '3109017782' AND email = 'mvillanueva@labdrill.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '816 3-street','Kansas City', 'AZ', '52081','0429265150', 'mwesterbeck@zoomit.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '94-6713384', 
+                c.customer_id, 
+                'Y-corporation',
+                'Blondell	Silvestrini', 
+                'Executive Manager R9' 
+            FROM customer c
+            WHERE c.street = '816 3-street' AND c.city = 'Kansas City' AND c.state = 'AZ' AND c.postal_code = '52081' AND c.phone_number = '0429265150' AND email = 'mwesterbeck@zoomit.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3358 12-street','Garland', 'FL', '37156','6213841839', 'akeneipp@doncon.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '97-5522995', 
+                c.customer_id, 
+                'Donquadtech',
+                'Lonna	Malet', 
+                'Fellow R8' 
+            FROM customer c
+            WHERE c.street = '3358 12-street' AND c.city = 'Garland' AND c.state = 'FL' AND c.postal_code = '37156' AND c.phone_number = '6213841839' AND email = 'akeneipp@doncon.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4586 2-street','Pittsburgh', 'AK', '64306','2448223307', 'rsteier@year-job.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '20-2164350', 
+                c.customer_id, 
+                'Dalttechnology',
+                'Willard	Jayson', 
+                'Senior Manager L5' 
+            FROM customer c
+            WHERE c.street = '4586 2-street' AND c.city = 'Pittsburgh' AND c.state = 'AK' AND c.postal_code = '64306' AND c.phone_number = '2448223307' AND email = 'rsteier@year-job.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '287 14-street','Atlanta', 'CO', '00594','1385393650', 'jloader@konex.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '46-6607006', 
+                c.customer_id, 
+                'Streethex',
+                'Rickie	Funnell', 
+                'Director R5' 
+            FROM customer c
+            WHERE c.street = '287 14-street' AND c.city = 'Atlanta' AND c.state = 'CO' AND c.postal_code = '00594' AND c.phone_number = '1385393650' AND email = 'jloader@konex.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3074 4-street','Nashville-Davidson', 'MD', '98298','8342833432', 'mcampain@kan-code.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '72-7273493', 
+                c.customer_id, 
+                'Lexiqvolax',
+                'Eden	Cryer', 
+                'Associate Director R1' 
+            FROM customer c
+            WHERE c.street = '3074 4-street' AND c.city = 'Nashville-Davidson' AND c.state = 'MD' AND c.postal_code = '98298' AND c.phone_number = '8342833432' AND email = 'mcampain@kan-code.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5088 21-street','Jacksonville', 'FL', '53411','7806684354', 'rjuhas@mathtouch.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '43-3403883', 
+                c.customer_id, 
+                'Sunnamplex',
+                'Skye	Hudnall', 
+                'SalesRep L5' 
+            FROM customer c
+            WHERE c.street = '5088 21-street' AND c.city = 'Jacksonville' AND c.state = 'FL' AND c.postal_code = '53411' AND c.phone_number = '7806684354' AND email = 'rjuhas@mathtouch.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '7525 13-street','Chandler', 'TX', '40411','1894843505', 'vschoeneck@konex.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '85-5840713', 
+                c.customer_id, 
+                'Groovestreet',
+                'Margart	Kardas', 
+                'Scientist M5' 
+            FROM customer c
+            WHERE c.street = '7525 13-street' AND c.city = 'Chandler' AND c.state = 'TX' AND c.postal_code = '40411' AND c.phone_number = '1894843505' AND email = 'vschoeneck@konex.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3844 8-street','Riverside', 'TX', '11958','1442090615', NULL);
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '18-3775909', 
+                c.customer_id, 
+                'Sonron',
+                'Ceola	Tollner', 
+                'Manager M3' 
+            FROM customer c
+            WHERE c.street = '3844 8-street' AND c.city = 'Riverside' AND c.state = 'TX' AND c.postal_code = '11958' AND c.phone_number = '1442090615' AND email = NULL;
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3229 12-street','Detroit', 'MI', '00132','5108865591', 'aharnos@newex.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '06-8876566', 
+                c.customer_id, 
+                'Xx-zobam',
+                'Chau	Ragel', 
+                'Manager R6' 
+            FROM customer c
+            WHERE c.street = '3229 12-street' AND c.city = 'Detroit' AND c.state = 'MI' AND c.postal_code = '00132' AND c.phone_number = '5108865591' AND email = 'aharnos@newex.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5321 11-street','Jersey City', 'CA', '43926','0391486606', 'sthreets@konmatfix.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '87-8575736', 
+                c.customer_id, 
+                'Plusstrip',
+                'Sylvia	Sahagun', 
+                'SalesRep R2' 
+            FROM customer c
+            WHERE c.street = '5321 11-street' AND c.city = 'Jersey City' AND c.state = 'CA' AND c.postal_code = '43926' AND c.phone_number = '0391486606' AND email = 'sthreets@konmatfix.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8233 7-street','El Paso', 'TX', '51945','6334107866', NULL);
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '82-8184602', 
+                c.customer_id, 
+                'Newex',
+                'Yvonne	Gochal', 
+                'Manager R2' 
+            FROM customer c
+            WHERE c.street = '8233 7-street' AND c.city = 'El Paso' AND c.state = 'TX' AND c.postal_code = '51945' AND c.phone_number = '6334107866' AND email = NULL;
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8190 8-street','Irvine', 'NC', '17943','9462231438', 'cflosi@golddex.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '68-4606539', 
+                c.customer_id, 
+                'Treequote',
+                'Delmy	Sweely', 
+                'Scientist R5' 
+            FROM customer c
+            WHERE c.street = '8190 8-street' AND c.city = 'Irvine' AND c.state = 'NC' AND c.postal_code = '17943' AND c.phone_number = '9462231438' AND email = 'cflosi@golddex.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6816 9-street','Baltimore', 'OK', '83973','2142886925', 'clary@cancity.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '07-2036529', 
+                c.customer_id, 
+                'Funholding',
+                'Levi	Gellinger', 
+                'Fellow M2' 
+            FROM customer c
+            WHERE c.street = '6816 9-street' AND c.city = 'Baltimore' AND c.state = 'OK' AND c.postal_code = '83973' AND c.phone_number = '2142886925' AND email = 'clary@cancity.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8644 8-street','Boston', 'TN', '81079','6640565822', NULL);
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '96-6692589', 
+                c.customer_id, 
+                'Iselectrics',
+                'Danica	Skulski', 
+                'SalesRep M2' 
+            FROM customer c
+            WHERE c.street = '8644 8-street' AND c.city = 'Boston' AND c.state = 'TN' AND c.postal_code = '81079' AND c.phone_number = '6640565822' AND email = NULL;
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6309 8-street','Memphis', 'TN', '54129','3764051258', 'tflister@betasoloin.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '31-3545908', 
+                c.customer_id, 
+                'Opentech',
+                'Fabiola	Toyama', 
+                'Senior Manager R7' 
+            FROM customer c
+            WHERE c.street = '6309 8-street' AND c.city = 'Memphis' AND c.state = 'TN' AND c.postal_code = '54129' AND c.phone_number = '3764051258' AND email = 'tflister@betasoloin.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4719 12-street','Bakersfield', 'FL', '24603','1547387581', 'lscriven@xx-zobam.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '59-9733673', 
+                c.customer_id, 
+                'Zencorporation',
+                'Raul	Sarbacher', 
+                'Senior Scientist M1' 
+            FROM customer c
+            WHERE c.street = '4719 12-street' AND c.city = 'Bakersfield' AND c.state = 'FL' AND c.postal_code = '24603' AND c.phone_number = '1547387581' AND email = 'lscriven@xx-zobam.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2629 21-street','Jersey City', 'CA', '94996','0848513693', 'smontezuma@sonron.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '29-6662491', 
+                c.customer_id, 
+                'Scottech',
+                'Marti	Mccullan', 
+                'Director M1' 
+            FROM customer c
+            WHERE c.street = '2629 21-street' AND c.city = 'Jersey City' AND c.state = 'CA' AND c.postal_code = '94996' AND c.phone_number = '0848513693' AND email = 'smontezuma@sonron.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3387 1-street','Chandler', 'TX', '05028','5900619971', 'amiro@scottech.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '50-0389893', 
+                c.customer_id, 
+                'Konex',
+                'Fletcher	Lipke', 
+                'Associate Fellow M8' 
+            FROM customer c
+            WHERE c.street = '3387 1-street' AND c.city = 'Chandler' AND c.state = 'TX' AND c.postal_code = '05028' AND c.phone_number = '5900619971' AND email = 'amiro@scottech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4577 2-street','Albuquerque', 'AZ', '97479','9760595092', 'dcorbley@dontechi.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '48-6768847', 
+                c.customer_id, 
+                'Hottechi',
+                'Amber	Hughey', 
+                'Fellow M7' 
+            FROM customer c
+            WHERE c.street = '4577 2-street' AND c.city = 'Albuquerque' AND c.state = 'AZ' AND c.postal_code = '97479' AND c.phone_number = '9760595092' AND email = 'dcorbley@dontechi.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4018 12-street','Norfolk', 'NC', '72164','3404435431', 'lplumer@year-job.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '84-6387554', 
+                c.customer_id, 
+                'Rundofase',
+                'Willow	Tawil', 
+                'Senior Director L5' 
+            FROM customer c
+            WHERE c.street = '4018 12-street' AND c.city = 'Norfolk' AND c.state = 'NC' AND c.postal_code = '72164' AND c.phone_number = '3404435431' AND email = 'lplumer@year-job.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '5840 7-street','Dallas', 'TX', '05460','0119161628', 'dwiklund@rantouch.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '83-3496482', 
+                c.customer_id, 
+                'Plussunin',
+                'Mattie	Kaniecki', 
+                'Fellow R2' 
+            FROM customer c
+            WHERE c.street = '5840 7-street' AND c.city = 'Dallas' AND c.state = 'TX' AND c.postal_code = '05460' AND c.phone_number = '0119161628' AND email = 'dwiklund@rantouch.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6697 7-street','Durham', 'WI', '55959','2638845007', 'jbuvens@openlane.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '17-3450014', 
+                c.customer_id, 
+                'Dalttechnology',
+                'Lawrence	Steier', 
+                'Associate Director M2' 
+            FROM customer c
+            WHERE c.street = '6697 7-street' AND c.city = 'Durham' AND c.state = 'WI' AND c.postal_code = '55959' AND c.phone_number = '2638845007' AND email = 'jbuvens@openlane.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2069 3-street','Fort Worth', 'TX', '85130','5607353093', NULL);
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '35-9898298', 
+                c.customer_id, 
+                'Yearin',
+                'Daniela	Blackwood', 
+                'Scientist R3' 
+            FROM customer c
+            WHERE c.street = '2069 3-street' AND c.city = 'Fort Worth' AND c.state = 'TX' AND c.postal_code = '85130' AND c.phone_number = '5607353093' AND email = NULL;
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4880 6-street','Virginia Beach', 'GA', '73720','7466598499', 'rpalaspas@plussunin.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '94-7914925', 
+                c.customer_id, 
+                'Fasehatice',
+                'Allene	Denooyer', 
+                'Executive Manager R8' 
+            FROM customer c
+            WHERE c.street = '4880 6-street' AND c.city = 'Virginia Beach' AND c.state = 'GA' AND c.postal_code = '73720' AND c.phone_number = '7466598499' AND email = 'rpalaspas@plussunin.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '249 12-street','Anchorage', 'CA', '97646','8807995442', 'lbiddy@doncon.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '33-2934805', 
+                c.customer_id, 
+                'Condax',
+                'Jovita	Kolmetz', 
+                'Senior Scientist M6' 
+            FROM customer c
+            WHERE c.street = '249 12-street' AND c.city = 'Anchorage' AND c.state = 'CA' AND c.postal_code = '97646' AND c.phone_number = '8807995442' AND email = 'lbiddy@doncon.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1469 9-street','Tampa', 'HI', '58840','7178971215', 'cwaymire@bioholding.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '64-7492958', 
+                c.customer_id, 
+                'Treequote',
+                'Weldon	Hamilton', 
+                'Manager R6' 
+            FROM customer c
+            WHERE c.street = '1469 9-street' AND c.city = 'Tampa' AND c.state = 'HI' AND c.postal_code = '58840' AND c.phone_number = '7178971215' AND email = 'cwaymire@bioholding.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '774 9-street','Charlotte', 'NC', '33005','0752224067', 'mvanheusen@betatech.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '92-9016618', 
+                c.customer_id, 
+                'Openlane',
+                'Fannie	Angalich', 
+                'Director R2' 
+            FROM customer c
+            WHERE c.street = '774 9-street' AND c.city = 'Charlotte' AND c.state = 'NC' AND c.postal_code = '33005' AND c.phone_number = '0752224067' AND email = 'mvanheusen@betatech.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4815 2-street','Las Vegas', 'WI', '45686','4812049826', 'rshealy@zotware.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '46-7746081', 
+                c.customer_id, 
+                'Golddex',
+                'Gayla	Klonowski', 
+                'Senior Scientist M7' 
+            FROM customer c
+            WHERE c.street = '4815 2-street' AND c.city = 'Las Vegas' AND c.state = 'WI' AND c.postal_code = '45686' AND c.phone_number = '4812049826' AND email = 'rshealy@zotware.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4562 6-street','Portland', 'NV', '60719','1681270085', 'vlukasik@groovestreet.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '72-6876442', 
+                c.customer_id, 
+                'Condax',
+                'Malcolm	Meisel', 
+                'Senior Director M8' 
+            FROM customer c
+            WHERE c.street = '4562 6-street' AND c.city = 'Portland' AND c.state = 'NV' AND c.postal_code = '60719' AND c.phone_number = '1681270085' AND email = 'vlukasik@groovestreet.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '9567 7-street','New York', 'NY', '86956','2249310659', NULL);
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '81-7754883', 
+                c.customer_id, 
+                'Toughzap',
+                'Alishia	Hiatt', 
+                'Manager M3' 
+            FROM customer c
+            WHERE c.street = '9567 7-street' AND c.city = 'New York' AND c.state = 'NY' AND c.postal_code = '86956' AND c.phone_number = '2249310659' AND email = NULL;
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '4538 11-street','New York', 'NY', '67769','3982767982', 'ekarpel@fasehatice.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '62-4702974', 
+                c.customer_id, 
+                'Rundofase',
+                'Chaya	Wolfgramm', 
+                'Senior Director R3' 
+            FROM customer c
+            WHERE c.street = '4538 11-street' AND c.city = 'New York' AND c.state = 'NY' AND c.postal_code = '67769' AND c.phone_number = '3982767982' AND email = 'ekarpel@fasehatice.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8006 18-street','Albuquerque', 'AZ', '15360','6217686131', 'cboord@yearin.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '24-4045456', 
+                c.customer_id, 
+                'Dalttechnology',
+                'Louisa	Labreche', 
+                'Senior Scientist R9' 
+            FROM customer c
+            WHERE c.street = '8006 18-street' AND c.city = 'Albuquerque' AND c.state = 'AZ' AND c.postal_code = '15360' AND c.phone_number = '6217686131' AND email = 'cboord@yearin.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '9377 21-street','Louisville/Jefferson County', 'OR', '67579','7607870807', 'rgillaspie@bioholding.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '49-9516264', 
+                c.customer_id, 
+                'Kinnamplus',
+                'Kristeen	Blackwood', 
+                'Associate Director M9' 
+            FROM customer c
+            WHERE c.street = '9377 21-street' AND c.city = 'Louisville/Jefferson County' AND c.state = 'OR' AND c.postal_code = '67579' AND c.phone_number = '7607870807' AND email = 'rgillaspie@bioholding.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '2877 4-street','San Jose', 'CA', '40803','1158576713', 'lhengel@blackzim.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '50-9862780', 
+                c.customer_id, 
+                'Sumace',
+                'Eun	Mondella', 
+                'Researcher L1' 
+            FROM customer c
+            WHERE c.street = '2877 4-street' AND c.city = 'San Jose' AND c.state = 'CA' AND c.postal_code = '40803' AND c.phone_number = '1158576713' AND email = 'lhengel@blackzim.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '6325 8-street','Aurora', 'CA', '85535','1622683978', 'cnabours@iselectrics.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '49-0400043', 
+                c.customer_id, 
+                'Bioholding',
+                'Francine	Devreese', 
+                'Senior Manager R7' 
+            FROM customer c
+            WHERE c.street = '6325 8-street' AND c.city = 'Aurora' AND c.state = 'CA' AND c.postal_code = '85535' AND c.phone_number = '1622683978' AND email = 'cnabours@iselectrics.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '1170 11-street','Tampa', 'HI', '09581','3329795636', 'dperruzza@rangreen.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '51-0247747', 
+                c.customer_id, 
+                'Opentech',
+                'Margart	Juvera', 
+                'Associate Director R4' 
+            FROM customer c
+            WHERE c.street = '1170 11-street' AND c.city = 'Tampa' AND c.state = 'HI' AND c.postal_code = '09581' AND c.phone_number = '3329795636' AND email = 'dperruzza@rangreen.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '3306 8-street','Fresno', 'CA', '22531','1122666043', 'afrancescon@lexiqvolax.com');
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '05-7673774', 
+                c.customer_id, 
+                'Kinnamplus',
+                'Leonida	Buzick', 
+                'Senior Director M8' 
+            FROM customer c
+            WHERE c.street = '3306 8-street' AND c.city = 'Fresno' AND c.state = 'CA' AND c.postal_code = '22531' AND c.phone_number = '1122666043' AND email = 'afrancescon@lexiqvolax.com';
+INSERT INTO customer (customer_id, street, city, state, postal_code, phone_number, email) VALUES (gen_random_uuid(), '8234 7-street','Houston', 'TX', '87425','2853350704', NULL);
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '22-1607231', 
+                c.customer_id, 
+                'Openlane',
+                'Chanel	Maisto', 
+                'SalesRep L1' 
+            FROM customer c
+            WHERE c.street = '8234 7-street' AND c.city = 'Houston' AND c.state = 'TX' AND c.postal_code = '87425' AND c.phone_number = '2853350704';

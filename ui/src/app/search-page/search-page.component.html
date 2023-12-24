@@ -1,0 +1,124 @@
+<div style="padding:10px; padding-left:25px;">
+    <mat-card *ngIf="shouldDisplayClerkCard" class="styled-card mat-elevation-z8">
+        <mat-card-title>Clerk options</mat-card-title>
+        <mat-card-content>
+            <p>Number of Pending Vehicles : {{ numPendingVehicles }}</p>
+            <p>Number of Available Vehicles : {{ numAvailableVehicles }}</p>
+            <button mat-raised-button (click)="onAddVehicleClick()">Add Vehicle</button>
+        </mat-card-content>
+    </mat-card>
+</div>
+<div style="padding:10px; padding-left:25px;">
+    <mat-card class="mat-elevation-z8"  class="styled-card" *ngIf="shouldDisplayMgrCard">
+        <mat-card-title>Reports:</mat-card-title>
+        <mat-card-content>
+            <div style="padding-bottom: 10px;">
+                <button class="padded-button" mat-raised-button (click)="managerSearchVehicle('sold')">Only Sold Vehicles</button>
+                <button class="padded-button" mat-raised-button (click)="managerSearchVehicle('unsold')">Only Unsold Vehicles</button>
+                <button class="padded-button" mat-raised-button (click)="managerSearchVehicle('all')">ALL Vehicles</button>
+            </div>
+            <mat-divider style="width:auto"></mat-divider>
+            <div style="padding-top: 10px;">
+
+                <button class="padded-button" mat-stroked-button [routerLink]="['/report', 'seller-history']" color="primary">Seller History</button>
+                <button class="padded-button" mat-stroked-button [routerLink]="['/report', 'average-time-in-inventory']" color="primary">Average Time in Inventory</button>
+                <button class="padded-button" mat-stroked-button [routerLink]="['/report', 'price-per-condition']" color="primary">Price Per Condition</button>
+                <button class="padded-button" mat-stroked-button [routerLink]="['/report', 'parts-statistics']" color="primary">Parts Statistics</button>
+                <button class="padded-button" mat-stroked-button [routerLink]="['/report', 'monthly-sales-summary']" color="primary">Monthly Sales</button>
+            </div>
+
+        </mat-card-content>
+    </mat-card>
+</div>
+
+<div style="padding:10px; padding-left:25px;">
+    <mat-card class="mat-elevation-z8"  class="styled-card" *ngIf="shouldDisplaySalespeopleCard">
+        <mat-card-title>SalesPeople options</mat-card-title>
+        <mat-card-content>
+            <p>Number of Pending Vehicles : {{ numPendingVehicles }}</p>
+            <p>Number of Available Vehicles : {{ numAvailableVehicles }}</p>
+        </mat-card-content>
+    </mat-card>
+</div>
+
+<mat-card>
+    <mat-card-title style="padding-left:20px;">Search</mat-card-title>
+    <mat-card-content>
+        <form [formGroup]="publicSearchForm" class="search-filters">
+            <mat-form-field>
+                <mat-label>Vehicle Type</mat-label>
+                <mat-select matNativeControl formControlName="vehicleType">
+                    <mat-option *ngFor="let vt of vehicleTypeOptions" [value]="vt">{{ vt }}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Manufacturer</mat-label>
+                <mat-select matNativeControl formControlName="manufacturerName">
+                    <mat-option *ngFor="let man of manufacturerOptions" [value]="man">{{ man }}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Fuel Type</mat-label>
+                <mat-select matNativeControl formControlName="fuelType">
+                    <mat-option *ngFor="let ft of fuelTypeOptions" [value]="ft">{{ ft }}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Colors</mat-label>
+                <mat-select matNativeControl formControlName="colors" multiple>
+                    <mat-option *ngFor="let c of colorOptions" [value]="c">{{ c }}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Model Name</mat-label>
+                <input matNativeControl formControlName="modelName">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Model Year</mat-label>
+                <input matNativeControl formControlName="modelYear">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Description</mat-label>
+                <input matNativeControl formControlName="description">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Mileage</mat-label>
+                <input matNativeControl formControlName="mileage">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Price</mat-label>
+                <input matNativeControl formControlName="price">
+            </mat-form-field>
+            <mat-form-field *ngIf="shouldDisplayVin">
+                <mat-label>VIN</mat-label>
+                <input matNativeControl formControlName="vin">
+            </mat-form-field>
+        </form>
+
+        <mat-card-actions>
+            <button mat-raised-button color="primary" (click)="search()">Search</button>
+            <button mat-raised-button color="warn" (click)="reset()">Reset</button>
+        </mat-card-actions>
+
+        <table mat-table [dataSource]="dataSource">
+            <ng-container matColumnDef="actions">
+                <th mat-header-cell *matHeaderCellDef class="px-2"></th>
+                <td mat-cell *matCellDef="let vehicle">
+                    <button mat-icon-button [routerLink]="['/vehicle', vehicle.vin]">
+                        <mat-icon>info</mat-icon>
+                    </button>
+                </td>
+            </ng-container>
+            <ng-container *ngFor="let column of displayedColumns.slice(1); let i = index;" [matColumnDef]="column">
+                <ng-container>
+                    <th mat-header-cell *matHeaderCellDef>{{ column }}</th>
+                    <td mat-cell *matCellDef="let element">{{ element[column] }}</td>
+                </ng-container>
+            </ng-container>
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+        <div *ngIf="noVehiclesFoundMessage">{{noVehiclesFoundMessage}}</div>
+        <mat-paginator [pageSizeOptions]="[10, 50]" class="mat-elevation-z8" showFirstLastButtons></mat-paginator>
+    </mat-card-content>
+</mat-card>

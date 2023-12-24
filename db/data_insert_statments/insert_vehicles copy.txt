@@ -1,0 +1,2011 @@
+ INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '036EG6XGHFJ822528',
+                    'user08',
+                    '2023-06-28',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D6650795352';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '054CB5NHFMK652777',
+                    'user08',
+                    '2023-08-30',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A9661106493';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '05PN35GUCGU088819',
+                    'user03',
+                    '2023-08-12',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A3910339352';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '06E4W168GDV777330',
+                    'user20',
+                    '2023-03-27',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D6889152867';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '0A45MTRRJ3K877609',
+                    'user23',
+                    '2023-08-09',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D2498998888';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '0JMXH7GQF1K570196',
+                    'user25',
+                    '2023-07-09',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '49-9516264';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '0O56VQ0TP1C342110',
+                    'user01',
+                    '2023-07-16',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B1456216849';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '0SR7K3TGOVW149442',
+                    'owner',
+                    '2023-04-13',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '29-6662491';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '0XPRYKN4QTB854977',
+                    'user23',
+                    '2023-05-01',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A7994838891';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '15WH5TNL8GD986516',
+                    'user23',
+                    '2023-07-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B6082349948';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '1C05IGNBBB6823554',
+                    'user23',
+                    '2023-06-06',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D7602785929';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '1GIQVMBR2A2798107',
+                    'user20',
+                    '2022-12-20',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A1981245672';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '1J538YW76YE281757',
+                    'user07',
+                    '2023-05-23',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '87-8575736';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '1JRH0ZBVOBE937509',
+                    'owner',
+                    '2023-07-17',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B9782424828';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '1M1GEHMECS1730055',
+                    'user20',
+                    '2023-06-18',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '35-9898298';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '1MV1LD01B0D736628',
+                    'user07',
+                    '2023-02-15',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D4831519171';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '1P2ISJXQKIW025651',
+                    'owner',
+                    '2023-03-02',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D9669540937';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '23VKNWAH4WQ056833',
+                    'user23',
+                    '2023-08-31',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B5196684007';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '2CB6WLH88NB344487',
+                    'user07',
+                    '2023-04-21',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '35-9898298';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '2DHOH4P4672123749',
+                    'user14',
+                    '2023-06-06',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A0936623718';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '2JUBCDLLXSB731848',
+                    'user01',
+                    '2023-08-27',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B5738835693';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '2N45QQ7SMY3757149',
+                    'owner',
+                    '2023-08-27',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A5896813739';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '2Y1UCXYY50T192604',
+                    'user21',
+                    '2022-11-17',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A5530386031';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '2YHAF0V8512939431',
+                    'user25',
+                    '2023-07-11',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B7194397683';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '2YTUEYSLDJG398062',
+                    'user08',
+                    '2023-04-10',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A3910339352';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '323F5QUAPKX190724',
+                    'user12',
+                    '2023-05-22',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B6010570650';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '340C5KYKWVM715838',
+                    'user01',
+                    '2022-12-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B2638494209';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '3464CBUBJ3G311266',
+                    'user23',
+                    '2023-03-17',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B8786618373';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '3EAZYH5SPE8904041',
+                    'user25',
+                    '2023-01-24',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B6364451946';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '3NED8CVSG6V494138',
+                    'user01',
+                    '2023-03-29',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '20-2164350';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '4BSRNVZZ2CQ691731',
+                    'owner',
+                    '2023-06-06',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A3910339352';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '4BW4C1KL6TZ577336',
+                    'user01',
+                    '2023-08-20',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A0461291890';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '4HVC60L66KI459720',
+                    'user08',
+                    '2023-04-17',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B5346544142';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '4RJT1NOLXUG037441',
+                    'user12',
+                    '2023-08-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D0233458616';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '4TJ5T18OMFN710800',
+                    'user21',
+                    '2023-02-19',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '81-7754883';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '55M41D1AGKW204016',
+                    'user21',
+                    '2023-08-12',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A4599693068';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '5DAWXIM4EAK735462',
+                    'user12',
+                    '2023-08-03',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C3612640531';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '5MS17EW23YR611242',
+                    'user23',
+                    '2022-11-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A1518047114';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '5T3XYBUNB63008211',
+                    'user01',
+                    '2023-07-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A9525842110';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '5WKWALJ4EQU001163',
+                    'user25',
+                    '2023-06-06',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C3914994260';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '65ISMOWUBDU569125',
+                    'user21',
+                    '2022-12-28',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '20-2164350';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '67BQ74RV204502543',
+                    'user12',
+                    '2023-03-12',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D4831519171';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '6N5JA7X7LX2749307',
+                    'user20',
+                    '2023-07-12',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B6847040699';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '6WRD8C6784B120048',
+                    'user23',
+                    '2022-08-14',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '50-0389893';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '6ZG2Z4HYIKW532605',
+                    'user03',
+                    '2022-10-15',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '62-4702974';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '73HIEJVMY26464395',
+                    'user23',
+                    '2023-06-14',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '85-5840713';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '8CR4YKPMHVR077313',
+                    'user14',
+                    '2023-08-29',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D9669540937';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '8JVUFKHA0TM075506',
+                    'owner',
+                    '2022-09-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A3710653626';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '8LPZZLYHF77014597',
+                    'user12',
+                    '2023-08-08',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C0673239779';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '8SGNAEKKQ0B252643',
+                    'user23',
+                    '2023-06-01',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D1357716930';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '8UU0VC3VENC905922',
+                    'user21',
+                    '2023-03-07',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D2600960022';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '8VGJ74SC8UK076966',
+                    'user25',
+                    '2022-11-30',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A6986218675';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    '8WLKEABOQM5965804',
+                    'user25',
+                    '2023-07-30',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '94-7914925';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'A1GTY6T551Q455502',
+                    'user25',
+                    '2023-08-23',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B1961357406';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'A1S3JZU0RGM394036',
+                    'user20',
+                    '2023-01-30',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C4236470136';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'AOIDQU2ROYY946376',
+                    'user08',
+                    '2023-08-03',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C8969012326';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'B1NDXK4VPM8021524',
+                    'user08',
+                    '2023-05-23',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D8920288787';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'B5Q25XY368S364688',
+                    'user03',
+                    '2023-08-29',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C4236470136';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'BCTZOAWQMHJ300759',
+                    'user25',
+                    '2023-06-17',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '59-9733673';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'BKO2YY3HI56119138',
+                    'user25',
+                    '2023-08-27',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C5211782393';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'BW4Z2PQG761237438',
+                    'user23',
+                    '2023-08-01',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A2580734753';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'BYNUGAHZM1L977542',
+                    'user23',
+                    '2023-06-06',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B0867624567';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'D244CUCA1UX127908',
+                    'user12',
+                    '2023-05-08',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '96-6692589';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'DABGHKVUB2D696619',
+                    'user14',
+                    '2023-08-23',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C8766275993';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'DBF5M62ODXK242204',
+                    'owner',
+                    '2023-04-04',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D5269489570';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'E5W8EPPWZS0896119',
+                    'user20',
+                    '2023-08-13',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '72-7273493';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'EDH6BDC74XY589172',
+                    'user14',
+                    '2022-09-28',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A0673790301';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'ELA1OD0NP7S259553',
+                    'user08',
+                    '2023-02-16',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '72-6876442';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'EQ22HWH3DG1475247',
+                    'user01',
+                    '2022-10-24',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A1981245672';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'ETRV7OGUK1A265022',
+                    'user03',
+                    '2023-06-10',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '62-4702974';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'EUNRBUAUCXQ934676',
+                    'user20',
+                    '2023-07-21',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C1217659257';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'EV4TH4BF5DQ470200',
+                    'user12',
+                    '2023-08-04',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C4774668646';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'EX0DFWC3FLW639681',
+                    'user25',
+                    '2023-06-08',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A5517572915';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'EZ144Z2QAJC644839',
+                    'owner',
+                    '2023-06-21',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B6364451946';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'F032TW1LYVD881430',
+                    'owner',
+                    '2023-06-12',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '46-6607006';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'F253TPAMQK3083569',
+                    'user07',
+                    '2023-08-23',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A4688720947';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'F42NYNK4BK3657449',
+                    'user20',
+                    '2023-02-22',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A4688720947';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'FLACGVUE5FI388538',
+                    'user03',
+                    '2023-07-25',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A4604249337';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'FPJBMT3OOG8061158',
+                    'user08',
+                    '2023-03-10',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B8644575091';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'FW817ZV3BVG215163',
+                    'owner',
+                    '2023-05-03',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B5738835693';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'FXCJT6N4BUT928292',
+                    'user01',
+                    '2023-07-22',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D5508697748';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'FXR24KBAHFZ139993',
+                    'user14',
+                    '2022-11-02',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C4299342425';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'GC27VB8JWCD457186',
+                    'owner',
+                    '2022-08-22',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D5508697748';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'GEW8SXH3TWS985107',
+                    'user14',
+                    '2023-08-27',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A9416682035';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'GHEDZEHRLGJ237205',
+                    'user08',
+                    '2023-03-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D2600960022';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'GTTYZXB3YJG754847',
+                    'user23',
+                    '2023-07-02',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '29-6662491';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'HGHHV1IWCUX780355',
+                    'user20',
+                    '2023-07-17',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D6100357446';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'HIEWYKOMDAK597903',
+                    'user23',
+                    '2023-07-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D5950814801';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'HJHFHI4TARG736468',
+                    'user07',
+                    '2022-12-20',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A9361688715';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'HRBDCA8RAE0685886',
+                    'user12',
+                    '2023-07-04',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A3383028473';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'HTIAUKNL6TA101731',
+                    'user21',
+                    '2023-01-15',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B7131079555';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'HUJ762ME6OB336499',
+                    'user03',
+                    '2023-04-28',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B7131079555';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'HXP0L3Y7NRP032607',
+                    'user07',
+                    '2023-08-22',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D8191703970';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'I4ZQBJWMKGO132368',
+                    'user03',
+                    '2023-08-08',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A0461291890';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'I7TC64WMFN3679469',
+                    'user08',
+                    '2023-08-20',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D3731035683';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'IK0HARFDHRY246462',
+                    'user25',
+                    '2023-07-25',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B7131079555';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'IO8AOWYKMLD518556',
+                    'user07',
+                    '2023-07-30',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B6010570650';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'IQ73NEIBJNB403342',
+                    'user25',
+                    '2023-08-14',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D7602785929';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'IUTAUS27FGO848930',
+                    'user03',
+                    '2023-03-14',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A9661106493';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'IXZVB277TU2768773',
+                    'user12',
+                    '2023-03-01',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A1981245672';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'IZPS1NTRXAH046134',
+                    'user20',
+                    '2023-04-02',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D2498998888';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'J05SWPOXE56492516',
+                    'user23',
+                    '2023-08-30',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A3710653626';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'J1MG8R7RAZX116769',
+                    'user23',
+                    '2023-06-06',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B1984877856';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'J6OMNLGS2AO161351',
+                    'user08',
+                    '2023-07-06',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D5269489570';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'JA7YVHAFRLT437706',
+                    'user14',
+                    '2023-03-08',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A4604249337';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'JE1O6OHJZW1220783',
+                    'user01',
+                    '2023-07-13',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D6650795352';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'JL4O86VLF1F081674',
+                    'user07',
+                    '2023-06-10',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C3839849069';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'JS0Y5W8KIDC106093',
+                    'owner',
+                    '2023-06-13',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A7994838891';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'JS7IRJMSXPC511509',
+                    'user14',
+                    '2023-03-29',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B9892813591';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'JZKBFXYGWL5900436',
+                    'user01',
+                    '2023-08-07',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '84-6387554';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'K3MTK4TIJNU760358',
+                    'user07',
+                    '2023-08-18',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C1967459004';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'KBYS182F2ID559258',
+                    'user23',
+                    '2023-06-03',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A2836727024';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'KCXGZEVS1QW404654',
+                    'user21',
+                    '2023-07-06',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B6334165149';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'KE1QKPKS6Q8459351',
+                    'user03',
+                    '2023-07-04',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '49-0400043';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'KZQ5C1NSWAJ790169',
+                    'owner',
+                    '2023-08-17',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D6100357446';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'L535DHDAU62985677',
+                    'user08',
+                    '2023-05-30',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D8191703970';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'L6EFDBPTY1B405814',
+                    'user08',
+                    '2023-02-23',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D0665878931';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'L712UQJXM4L524142',
+                    'user01',
+                    '2023-06-17',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D3479521146';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'LRB2H3BHPKX650155',
+                    'user07',
+                    '2023-05-01',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D9676746157';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'LWA5MXOU4MD327938',
+                    'user07',
+                    '2023-07-30',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C3225068735';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'LYPZILOBZ87153615',
+                    'owner',
+                    '2023-04-28',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D6650795352';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'M0S6NVFHN2E042385',
+                    'user03',
+                    '2023-06-08',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B1456216849';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'M3VW8YIQKWT779745',
+                    'owner',
+                    '2023-01-19',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B1731449781';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'MAO8BQ1NDT7049472',
+                    'user12',
+                    '2022-10-15',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B2440929697';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'MATGJILCBL4124189',
+                    'user20',
+                    '2023-08-23',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C3378134863';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'MJT0LBERDE8792947',
+                    'user25',
+                    '2023-08-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D6889152867';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'MJZ2P85E65M015209',
+                    'user01',
+                    '2022-12-21',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C9346888737';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'MM2NLRDRNXX156196',
+                    'user21',
+                    '2023-02-24',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B5738835693';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'MPXFMDRYC6D036656',
+                    'user08',
+                    '2023-06-10',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A5530386031';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'MRHT53HXAKW856444',
+                    'user03',
+                    '2023-08-04',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B3290593615';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'MRHV8EI5ETH324409',
+                    'user07',
+                    '2023-01-25',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B1961357406';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'N2VSLYX8OXL077775',
+                    'user23',
+                    '2023-07-17',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B1731449781';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'N5QQ2WLB5PL198189',
+                    'user20',
+                    '2023-06-19',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '49-0400043';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'N64LL1WC63N759701',
+                    'user12',
+                    '2023-08-28',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A4688720947';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'NF2DBQEFZ0N234783',
+                    'user25',
+                    '2022-12-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A9416682035';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'NJFDCKXL34E222565',
+                    'user03',
+                    '2022-08-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A1518047114';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'NNKIP3UNIGZ353715',
+                    'user21',
+                    '2023-07-07',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C8766275993';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'NV7YPGMDYFH278949',
+                    'owner',
+                    '2023-01-17',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D0665878931';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'O0LX0JY57BT960015',
+                    'user14',
+                    '2023-06-29',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D6889152867';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'O1C66KL1VK4840531',
+                    'user14',
+                    '2023-02-28',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D0760894831';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'OA1F76XJUQS608395',
+                    'user03',
+                    '2023-06-09',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B9946174152';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'OETQ6SV7QKM285952',
+                    'user23',
+                    '2023-07-12',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B2440929697';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'OMDPS8X50N7546352',
+                    'user07',
+                    '2023-06-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B3290593615';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'OMJKHKQNFKJ761643',
+                    'user08',
+                    '2023-03-31',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '05-7673774';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'OQPBCN4Y1YB733979',
+                    'user14',
+                    '2023-07-08',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C4774668646';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'P54475O4N8K403608',
+                    'user01',
+                    '2023-07-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A9416682035';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'P7NLPCKCGFU554815',
+                    'user07',
+                    '2023-07-17',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A4366803067';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'PBJA5AUSTU5098920',
+                    'user03',
+                    '2023-06-21',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '96-6692589';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'PEB0OLCPG6W994144',
+                    'owner',
+                    '2023-08-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A6689897244';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'PFRYPJOGJ51531310',
+                    'user20',
+                    '2023-08-11',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D0760894831';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'PI5K0FV5WKD862880',
+                    'user03',
+                    '2023-07-25',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B3290593615';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'PKFGEZTKARS310898',
+                    'user12',
+                    '2023-06-12',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B3290593615';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'PLMR41N2YPR821121',
+                    'user21',
+                    '2023-08-30',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A0262371356';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'PLPMWBZXIDB972615',
+                    'user08',
+                    '2023-08-20',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B2598969914';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'POBJLZ8FZN0427016',
+                    'user07',
+                    '2023-08-15',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D2498998888';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'PYWDSWXK5X5262660',
+                    'user20',
+                    '2022-12-03',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D5950814801';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'Q3TT4GKZDHK659352',
+                    'user14',
+                    '2023-07-29',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '85-5840713';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'Q6C80HSWMFK634460',
+                    'user08',
+                    '2023-05-30',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B3463874026';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'QV77RP24AZ3546581',
+                    'user21',
+                    '2022-08-21',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B6082349948';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'QWYUAF6GIGE744209',
+                    'user12',
+                    '2023-05-02',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B7131079555';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'R3Q6NWXL5OK028859',
+                    'user08',
+                    '2022-09-18',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C2317543508';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'RH3XN0D50EO772614',
+                    'user12',
+                    '2023-01-23',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '48-6768847';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'RXLO3PC8EG8307071',
+                    'user01',
+                    '2023-05-12',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C2838238369';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'SAN8CKZV8O6386790',
+                    'user12',
+                    '2023-08-29',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C1967459004';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'SC0ZRWACOEM768702',
+                    'user12',
+                    '2023-05-06',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D0665878931';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'SLY1Q4WQXLP675951',
+                    'user07',
+                    '2023-02-23',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C0266219877';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'SMZSGMQWSKI621717',
+                    'user25',
+                    '2023-07-20',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B3290593615';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'SSSGFBFNIOE995675',
+                    'user12',
+                    '2023-08-25',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '35-9898298';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'T1TFNQC1QZ0222284',
+                    'owner',
+                    '2023-02-07',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C5211782393';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'TRB4XOLO3Y2181257',
+                    'user23',
+                    '2023-05-04',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B9892813591';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'TVFRONGULQ7855167',
+                    'user07',
+                    '2023-08-03',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A5517572915';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'U2SEQATJQIP647043',
+                    'user20',
+                    '2023-06-11',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '24-4045456';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'U3SEY7BL74U428566',
+                    'user03',
+                    '2023-08-24',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '51-0247747';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'U4DAG21M25I154677',
+                    'user23',
+                    '2023-08-12',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A3570377285';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'U6AKQW00N22614671',
+                    'user08',
+                    '2022-12-04',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A1440687124';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'UDOHJKQNZRU355125',
+                    'user14',
+                    '2023-02-09',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '82-8184602';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'UU2VI1MPOCJ886472',
+                    'user03',
+                    '2023-08-09',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A1663169974';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'UYQXFHB268D227085',
+                    'user21',
+                    '2023-03-23',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D5508697748';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'V08JG7APNII434369',
+                    'user23',
+                    '2023-04-14',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C8583214663';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'VJUYVX0SHHT606044',
+                    'user14',
+                    '2023-08-11',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D8920288787';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'VLYZ0TBEDGM584853',
+                    'owner',
+                    '2023-06-14',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C3914994260';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'VPER1TKLOPC634179',
+                    'user03',
+                    '2022-12-13',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A1440687124';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'VTVE6444244403193',
+                    'user14',
+                    '2023-07-08',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '48-6768847';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'VWWOX3PM6QD757820',
+                    'user08',
+                    '2023-05-23',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '46-7746081';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'W85FIU0UPWJ342063',
+                    'owner',
+                    '2023-05-26',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B6334165149';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'WKNIUEPLNDU378894',
+                    'user08',
+                    '2023-08-12',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A0461291890';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'WQGPTZ2HOU7481211',
+                    'user21',
+                    '2023-05-30',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D4831519171';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'XNUNZXGY3NC711419',
+                    'user14',
+                    '2023-08-14',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'D9223276847';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'XUYF42BKSWK479574',
+                    'user21',
+                    '2023-07-14',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A4599693068';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'Y0E0QLEFDDC702405',
+                    'user14',
+                    '2023-07-20',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B6847040699';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'YFV4PPW4SW8405660',
+                    'user14',
+                    '2023-05-24',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B9892813591';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'YIRV4C5U8MN581204',
+                    'user21',
+                    '2023-06-30',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A4532111602';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'Z0405USEZKH796737',
+                    'user12',
+                    '2023-05-25',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '06-8876566';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'Z1QCG3DRQAX515930',
+                    'user25',
+                    '2023-08-20',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A0310274381';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'Z8KJQAZ0L2C379316',
+                    'user03',
+                    '2023-06-16',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C2776254573';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'ZBZRLDKTF22899385',
+                    'user03',
+                    '2023-06-08',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C4236470136';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'ZI36738ITE3999852',
+                    'user07',
+                    '2023-04-25',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'B9346967347';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'ZIOB2UP8DA8102221',
+                    'user21',
+                    '2023-05-21',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '05-7673774';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'ZMVRJH6HGUZ703892',
+                    'user14',
+                    '2023-05-24',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'C8271029908';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'ZPSM0A6MZXM357384',
+                    'user25',
+                    '2023-06-28',
+                    '0.0'
+                FROM customerindividual c
+                WHERE c.drivers_license_number = 'A7410218307';
+            
+                 INSERT INTO public.buy(customer_id, vin, username, sale_date, sale_price)
+                SELECT
+                    c.customer_id,
+                    'ZR3ABC4M7DZ405619',
+                    'user14',
+                    '2022-10-05',
+                    '0.0'
+                FROM customerbusiness c
+                WHERE c.tax_id_number = '29-6662491';
+            
+                

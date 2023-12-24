@@ -1,0 +1,109 @@
+<mat-card>
+    <div>Select a Vendor:</div>
+    <form [formGroup]="vendorSearchForm">
+    <mat-form-field>
+        <mat-label>Name</mat-label>
+        <input matNativeControl placeholder="Firstname/Lastname" formControlName="name"/>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Phonenumber</mat-label>
+        <input matNativeControl placeholder="Phonenumber" formControlName="phone"/>
+    </mat-form-field>
+    <mat-card-actions>
+        <button mat-button (click)="searchVendor()">Search</button>
+        <button mat-button (click)="showAddVendorForm()">Add Vendor</button>
+    </mat-card-actions>
+    
+</form>
+<mat-selection-list [multiple]="false" (selectionChange)="onSelectVendor(vendors.selectedOptions.selected)" #vendors>
+    <!-- @for (customer of customerSearchData; track customer) { -->
+      <mat-list-option *ngFor="let vendor of vendorSearchData;" [value]="vendor">{{vendor['name']}}</mat-list-option>
+    <!-- } -->
+</mat-selection-list>
+</mat-card>
+<mat-card *ngIf="showAddVendorFormBool">
+    <form [formGroup]="addVendorForm">
+        <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input matNativeControl placeholder="Firstname Lastname" formControlName="name"/>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Phonenumber</mat-label>
+            <input matNativeControl placeholder="Phonenumber" formControlName="phonenumber"/>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Street</mat-label>
+            <input matNativeControl placeholder="Street" formControlName="street"/>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>City</mat-label>
+            <input matNativeControl placeholder="City" formControlName="city"/>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>State</mat-label>
+            <input matNativeControl placeholder="State" formControlName="state"/>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Postal Code</mat-label>
+            <input matNativeControl placeholder="Postal Code" formControlName="postal_code"/>
+        </mat-form-field>
+        <mat-card-actions>
+            <button primary mat-button (click)="saveVendor()">Save Vendor</button>
+        </mat-card-actions>
+        
+    </form>  
+</mat-card>
+<mat-card>
+    <form [formGroup]="addPartOrderForm">
+        <mat-form-field>
+            <mat-label>Vendor</mat-label>
+            <input matNativeControl placeholder="Vendor" formControlName="part_vendor_name" readonly/>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Total Cost</mat-label>
+            <input matNativeControl type="number" readonly placeholder="Total Cost" formControlName="total_cost" />
+        </mat-form-field>
+        <section>
+            <li *ngFor="let part of partsAdded">
+                <span>{{part.part_number}}</span>
+            </li>
+        </section>
+        <mat-card-actions>
+            <button mat-button (click)="showAddPartForm()">Add Parts</button>
+            <button mat-raised-button color="primary" (click)="savePartOrder()">Save Order</button>
+            <button mat-button mat-dialog-close cdkFocusInitial>Exit</button>
+        </mat-card-actions>
+        
+    </form>
+</mat-card>
+<mat-card *ngIf="showAddPartFormBool">
+    <div>Add Parts:</div>
+    <form [formGroup]="addPartForm">
+        <mat-form-field>
+            <mat-label>Part Number</mat-label>
+            <input matNativeControl placeholder="Part #" formControlName="part_number" />
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Description</mat-label>
+            <input matNativeControl placeholder="Description" formControlName="description" />
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Cost</mat-label>
+            <input matNativeControl type="number" placeholder="Cost" formControlName="cost" />
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Quantity</mat-label>
+            <input matNativeControl type="number" placeholder="Quantity" formControlName="quantity" />
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Status</mat-label>
+            <mat-select matNativeControl default="ordered" formControlName="status">
+                <mat-option *ngFor="let part of partStatus" [value]="part">{{part}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-card-actions>
+            <button mat-raised-button (click)="savePart()">Add</button>
+        </mat-card-actions>
+        
+    </form>
+</mat-card>

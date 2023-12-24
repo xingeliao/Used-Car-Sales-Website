@@ -1,0 +1,198 @@
+<mat-card>
+    <mat-card-title>New Vehicle Form</mat-card-title>
+    <mat-card-content>
+
+        <form [formGroup]="customerSearchForm">
+            <mat-form-field>
+                <mat-label>Driver's License Number</mat-label>
+                <input matNativeControl formControlName="driverLicense">
+            </mat-form-field>
+            <span class="space-me">or</span>
+            <mat-form-field>
+                <mat-label>Tax ID</mat-label>
+                <input matNativeControl formControlName="taxId">
+            </mat-form-field>
+            <button mat-icon-button (click)="searchCustomer()">
+                <mat-icon>search</mat-icon>
+            </button>
+        </form>
+
+        <ng-container *ngIf="!noCustomerFoundMessage">
+            <table mat-table [dataSource]="dataSource">
+                <ng-container matColumnDef="actions">
+                    <th mat-header-cell *matHeaderCellDef class="px-2"></th>
+                    <td mat-cell *matCellDef="let customer">
+                        <button mat-icon-button (click)="addCustomerToCarPurchase(customer)">
+                            <mat-icon>add</mat-icon>
+                        </button>
+                    </td>
+                </ng-container>
+                <ng-container *ngFor="let column of displayedColumns.slice(1)" [matColumnDef]="column">
+                    <ng-container>
+                        <th mat-header-cell *matHeaderCellDef>{{ column }}</th>
+                        <td mat-cell *matCellDef="let element">{{ element[column] }}</td>
+                    </ng-container>
+                </ng-container>
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+        </ng-container>
+
+        <ng-container *ngIf="!!noCustomerFoundMessage">
+            <p>No Customer found. Fill in the fields below to add business or individual customer.</p>
+            <mat-radio-group aria-label="Select type of customer" [(ngModel)]="newCustomerType">
+                <mat-radio-button value="individual">Individual Customer</mat-radio-button>
+                <mat-radio-button value="business">Business Customer</mat-radio-button>
+            </mat-radio-group>
+
+            <form *ngIf="newCustomerType === 'individual'" [formGroup]="customerInvidualForm">
+                <mat-form-field>
+                    <mat-label>Driver's License Number</mat-label>
+                    <input matNativeControl formControlName="driversLicenseNumber">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>First Name</mat-label>
+                    <input matNativeControl formControlName="firstName">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Last Name</mat-label>
+                    <input matNativeControl formControlName="lastName">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Street</mat-label>
+                    <input matNativeControl formControlName="street">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>City</mat-label>
+                    <input matNativeControl formControlName="city">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>State</mat-label>
+                    <input matNativeControl formControlName="state">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Zip</mat-label>
+                    <input matNativeControl formControlName="zipCode">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Phone Number</mat-label>
+                    <input matNativeControl formControlName="phoneNumber">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Email</mat-label>
+                    <input matNativeControl formControlName="email">
+                </mat-form-field>
+                <button mat-raised-button (click)="saveCustomer('individual')">Save Customer</button>
+            </form>
+            <form *ngIf="newCustomerType === 'business'" [formGroup]="customerBusinessForm">
+                <mat-form-field>
+                    <mat-label>Tax ID Number</mat-label>
+                    <input matNativeControl formControlName="taxIdNumber">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Contact Name</mat-label>
+                    <input matNativeControl formControlName="contactName">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Title</mat-label>
+                    <input matNativeControl formControlName="title">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Business Name</mat-label>
+                    <input matNativeControl formControlName="businessName">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Street</mat-label>
+                    <input matNativeControl formControlName="street">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>City</mat-label>
+                    <input matNativeControl formControlName="city">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>State</mat-label>
+                    <input matNativeControl formControlName="state">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Zip</mat-label>
+                    <input matNativeControl formControlName="zipCode">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Phone Number</mat-label>
+                    <input matNativeControl formControlName="phoneNumber">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Email</mat-label>
+                    <input matNativeControl formControlName="email">
+                </mat-form-field>
+                <button mat-raised-button (click)="saveCustomer('business')">Save Customer</button>
+            </form>
+        </ng-container>
+        
+        <mat-divider></mat-divider>
+
+        <!-- <p>vehicle form values:</p>   
+        {{ vehicleForm.value | json }} -->
+
+        <form [formGroup]="vehicleForm">
+            <mat-form-field>
+                <mat-label>Vehicle Type</mat-label>
+                <mat-select matNativeControl formControlName="vehicleType">
+                    <mat-option *ngFor="let vt of vehicleTypeOptions" [value]="vt">{{ vt }}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Manufacturer</mat-label>
+                <mat-select matNativeControl formControlName="manufacturerName">
+                    <mat-option *ngFor="let man of manufacturerOptions" [value]="man">{{ man }}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Fuel Type</mat-label>
+                <mat-select matNativeControl formControlName="fuelType">
+                    <mat-option *ngFor="let ft of fuelTypeOptions" [value]="ft">{{ ft }}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Vehicle Condition</mat-label>
+                <mat-select matNativeControl formControlName="condition">
+                    <mat-option *ngFor="let cond of conditionOptions" [value]="cond">{{ cond }}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Colors</mat-label>
+                <mat-select matNativeControl formControlName="colors" multiple>
+                    <mat-option *ngFor="let c of colorOptions" [value]="c">{{ c }}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Model Name</mat-label>
+                <input matNativeControl formControlName="modelName">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Model Year</mat-label>
+                <input matNativeControl formControlName="modelYear">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Description</mat-label>
+                <input matNativeControl formControlName="description">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Mileage</mat-label>
+                <input matNativeControl formControlName="mileage">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Price</mat-label>
+                <input matNativeControl formControlName="price">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>VIN</mat-label>
+                <input matNativeControl formControlName="vin">
+            </mat-form-field>
+        </form>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color="primary" (click)="onSave()">Save</button>
+        <button mat-raised-button color="warn" (click)="onCancel()">Cancel</button>
+    </mat-card-actions>
+</mat-card>

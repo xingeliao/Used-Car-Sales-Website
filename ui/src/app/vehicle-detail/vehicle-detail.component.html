@@ -1,0 +1,117 @@
+<mat-card *ngIf="isPublic">
+    <mat-card-title>Vehicle Details:</mat-card-title>
+    <mat-card-content>
+        <h3><b>Vehicle information</b></h3>
+        <p>VIN: {{vin}}</p>
+        <p>Vehicle type: {{vehicle_type}}</p>
+        <p>Model year: {{model_year}}</p>
+        <p>Model name: {{model_name}}</p>
+        <p>Mileage: {{mileage}}</p>
+        <p>Manufacturer name: {{manufacturer_name}}</p>
+        <p>Fuel type: {{fuel_type}}</p>
+        <p>Color: {{color}}</p>
+        <p>Description: {{description}}</p>
+    </mat-card-content>
+</mat-card>
+
+<mat-card *ngIf="isClerkOrOwner">
+    <mat-card-title>Clerk section</mat-card-title>
+    <mat-card-content>
+        <h3><b>Vehicle information</b></h3>
+        <p>VIN: {{vin}}</p>
+        <p>Vehicle type: {{vehicle_type}}</p>
+        <p>Model year: {{model_year}}</p>
+        <p>Model name: {{model_name}}</p>
+        <p>Mileage: {{mileage}}</p>
+        <p>Manufacturer name: {{manufacturer_name}}</p>
+        <p>Fuel type: {{fuel_type}}</p>
+        <p>Color: {{color}}</p>
+        <p>Description: {{description}}</p>
+
+        <h3><b>Inventory information</b></h3>
+        <p>Original purchase price: {{purchase_price}}</p>
+        <p>Total cost of parts: {{total}} </p>
+
+        <h3><b>Part order information</b></h3>
+            <div *ngFor="let partOrder of partOrders">
+                <p>Part Vendor Name: {{ partOrder.part_vendor_name }}</p>
+                <p>Purchase Order Number: {{ partOrder.purchase_order_number }}</p>
+                <p>Total Cost: {{ partOrder.total_cost }}</p>
+                <button mat-raised-button [routerLink]="['/view-part-order', partOrder.purchase_order_number]">View part details</button>
+                <button mat-button color="warn" (click)="deletePartOrder(partOrder.purchase_order_number)">Delete</button>
+                <hr>
+            </div>
+
+        <button mat-raised-button (click)="addPartOrder()">Click me to add part order</button>
+    </mat-card-content>
+</mat-card>
+
+<mat-card *ngIf="isManagerOrOwner">
+    <mat-card-title>Manager section</mat-card-title>
+    <mat-card-content>
+        <h3><b>Vehicle information</b></h3>
+            <p>VIN: {{vin}}</p>
+            <p>Vehicle type: {{vehicle_type}}</p>
+            <p>Model year: {{model_year}}</p>
+            <p>Model name: {{model_name}}</p>
+            <p>Mileage: {{mileage}}</p>
+            <p>Manufacturer name: {{manufacturer_name}}</p>
+            <p>Fuel type: {{fuel_type}}</p>
+            <p>Color: {{color}}</p>
+            <p>Description: {{description}}</p>
+
+        <h3><b>Seller's contact information</b></h3>
+            <p>Contact info: {{contact_info}}</p>
+            <p>Phone number: {{phone_number}}</p>
+            <p>Email: {{email}}</p>
+            <p>Address: {{address}}</p>
+
+        <h3><b>Inventory information</b></h3>
+            <p>Inventory clerk name: {{clerk_name}}</p>
+            <p>Original purchase price: {{purchase_price}}</p>
+            <p>Purchase date: {{purchase_date}}</p>
+            <p>Total cost of parts: {{total}} </p>
+
+        <h3><b>Part order information</b></h3>
+            <div *ngFor="let partOrder of partOrders">
+                <p>Part Vendor Name: {{ partOrder.part_vendor_name }}</p>
+                <p>Purchase Order Number: {{ partOrder.purchase_order_number }}</p>
+                <p>Total Cost: {{ partOrder.total_cost }}</p>
+                <button mat-raised-button [routerLink]="['/view-part-order', partOrder.purchase_order_number]">View part details</button>
+                <button mat-button color="warn" (click)="deletePartOrder(partOrder.purchase_order_number)">Delete</button>
+                <hr>
+            </div>
+
+        <h3><b>Buyer's contact information</b></h3>
+            <p>Contact info: {{buyer_contact_info}}</p>
+            <p>Phone number: {{buyer_phone_number}}</p>
+            <p>Email: {{buyer_email}}</p>
+            <p>Address: {{buyer_address}}</p>
+
+        <h3><b>Salesperson's information</b></h3>
+            <p>Salesperson's name: {{salesperson}}</p>
+            <p>Sales date: {{sale_date}}</p>
+
+
+    </mat-card-content>
+</mat-card>
+
+<mat-card *ngIf="isSalesOrOwner">
+    <mat-card-title>SalesPeople section</mat-card-title>
+    <mat-card-content>
+
+        <h3><b>Vehicle information</b></h3>
+        <p>VIN: {{vin}}</p>
+        <p>Vehicle type: {{vehicle_type}}</p>
+        <p>Model year: {{model_year}}</p>
+        <p>Model name: {{model_name}}</p>
+        <p>Mileage: {{mileage}}</p>
+        <p>Manufacturer name: {{manufacturer_name}}</p>
+        <p>Fuel type: {{fuel_type}}</p>
+        <p>Color: {{color}}</p>
+        <p>Description: {{description}}</p>
+
+        <button mat-raised-button (click)="sellVehicle()">Click me to sell the car</button>
+    </mat-card-content>
+</mat-card>
+

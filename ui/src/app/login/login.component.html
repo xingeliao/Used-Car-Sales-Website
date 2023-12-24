@@ -1,0 +1,23 @@
+<div class="login-section" style="padding: 5%;">
+    <mat-card style="width:75%; padding: 50px; margin:auto">
+        <h4>Enter Your Information</h4>
+        <mat-card-content style="margin:auto">
+            <form [formGroup]="loginForm">
+                <mat-form-field style="padding-right: 50px;">
+                    <mat-label>Username</mat-label>
+                    <input matNativeControl placeholder="Username" formControlName="username">
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Password</mat-label>
+                    <input matNativeControl placeholder="Password" type="password" formControlName="password">
+                </mat-form-field>
+            </form>
+        </mat-card-content>
+        
+        <div style="margin:auto">
+            <button mat-raised-button color="primary" (click)="login()">Log In</button>
+        </div> 
+    </mat-card> 
+</div>  
+
+<p *ngIf="!!loginError" class="login-error">{{ loginError }}</p>

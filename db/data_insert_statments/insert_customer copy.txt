@@ -1,0 +1,342 @@
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '94-6713384', 
+                c.customer_id, 
+                'Y-corporation',
+                'Blondell	Silvestrini', 
+                'Executive Manager R9' 
+            FROM customer c
+            WHERE c.street = '816 3-street' AND c.city = 'Kansas City' AND c.state = 'AZ' AND c.postal_code = '52081' AND c.phone_number = '0429265150' AND email = 'mwesterbeck@zoomit.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '97-5522995', 
+                c.customer_id, 
+                'Donquadtech',
+                'Lonna	Malet', 
+                'Fellow R8' 
+            FROM customer c
+            WHERE c.street = '3358 12-street' AND c.city = 'Garland' AND c.state = 'FL' AND c.postal_code = '37156' AND c.phone_number = '6213841839' AND email = 'akeneipp@doncon.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '20-2164350', 
+                c.customer_id, 
+                'Dalttechnology',
+                'Willard	Jayson', 
+                'Senior Manager L5' 
+            FROM customer c
+            WHERE c.street = '4586 2-street' AND c.city = 'Pittsburgh' AND c.state = 'AK' AND c.postal_code = '64306' AND c.phone_number = '2448223307' AND email = 'rsteier@year-job.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '46-6607006', 
+                c.customer_id, 
+                'Streethex',
+                'Rickie	Funnell', 
+                'Director R5' 
+            FROM customer c
+            WHERE c.street = '287 14-street' AND c.city = 'Atlanta' AND c.state = 'CO' AND c.postal_code = '00594' AND c.phone_number = '1385393650' AND email = 'jloader@konex.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '72-7273493', 
+                c.customer_id, 
+                'Lexiqvolax',
+                'Eden	Cryer', 
+                'Associate Director R1' 
+            FROM customer c
+            WHERE c.street = '3074 4-street' AND c.city = 'Nashville-Davidson' AND c.state = 'MD' AND c.postal_code = '98298' AND c.phone_number = '8342833432' AND email = 'mcampain@kan-code.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '43-3403883', 
+                c.customer_id, 
+                'Sunnamplex',
+                'Skye	Hudnall', 
+                'SalesRep L5' 
+            FROM customer c
+            WHERE c.street = '5088 21-street' AND c.city = 'Jacksonville' AND c.state = 'FL' AND c.postal_code = '53411' AND c.phone_number = '7806684354' AND email = 'rjuhas@mathtouch.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '85-5840713', 
+                c.customer_id, 
+                'Groovestreet',
+                'Margart	Kardas', 
+                'Scientist M5' 
+            FROM customer c
+            WHERE c.street = '7525 13-street' AND c.city = 'Chandler' AND c.state = 'TX' AND c.postal_code = '40411' AND c.phone_number = '1894843505' AND email = 'vschoeneck@konex.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '18-3775909', 
+                c.customer_id, 
+                'Sonron',
+                'Ceola	Tollner', 
+                'Manager M3' 
+            FROM customer c
+            WHERE c.street = '3844 8-street' AND c.city = 'Riverside' AND c.state = 'TX' AND c.postal_code = '11958' AND c.phone_number = '1442090615';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '06-8876566', 
+                c.customer_id, 
+                'Xx-zobam',
+                'Chau	Ragel', 
+                'Manager R6' 
+            FROM customer c
+            WHERE c.street = '3229 12-street' AND c.city = 'Detroit' AND c.state = 'MI' AND c.postal_code = '00132' AND c.phone_number = '5108865591' AND email = 'aharnos@newex.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '87-8575736', 
+                c.customer_id, 
+                'Plusstrip',
+                'Sylvia	Sahagun', 
+                'SalesRep R2' 
+            FROM customer c
+            WHERE c.street = '5321 11-street' AND c.city = 'Jersey City' AND c.state = 'CA' AND c.postal_code = '43926' AND c.phone_number = '0391486606' AND email = 'sthreets@konmatfix.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '82-8184602', 
+                c.customer_id, 
+                'Newex',
+                'Yvonne	Gochal', 
+                'Manager R2' 
+            FROM customer c
+            WHERE c.street = '8233 7-street' AND c.city = 'El Paso' AND c.state = 'TX' AND c.postal_code = '51945' AND c.phone_number = '6334107866';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '68-4606539', 
+                c.customer_id, 
+                'Treequote',
+                'Delmy	Sweely', 
+                'Scientist R5' 
+            FROM customer c
+            WHERE c.street = '8190 8-street' AND c.city = 'Irvine' AND c.state = 'NC' AND c.postal_code = '17943' AND c.phone_number = '9462231438' AND email = 'cflosi@golddex.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '07-2036529', 
+                c.customer_id, 
+                'Funholding',
+                'Levi	Gellinger', 
+                'Fellow M2' 
+            FROM customer c
+            WHERE c.street = '6816 9-street' AND c.city = 'Baltimore' AND c.state = 'OK' AND c.postal_code = '83973' AND c.phone_number = '2142886925' AND email = 'clary@cancity.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '96-6692589', 
+                c.customer_id, 
+                'Iselectrics',
+                'Danica	Skulski', 
+                'SalesRep M2' 
+            FROM customer c
+            WHERE c.street = '8644 8-street' AND c.city = 'Boston' AND c.state = 'TN' AND c.postal_code = '81079' AND c.phone_number = '6640565822';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '31-3545908', 
+                c.customer_id, 
+                'Opentech',
+                'Fabiola	Toyama', 
+                'Senior Manager R7' 
+            FROM customer c
+            WHERE c.street = '6309 8-street' AND c.city = 'Memphis' AND c.state = 'TN' AND c.postal_code = '54129' AND c.phone_number = '3764051258' AND email = 'tflister@betasoloin.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '59-9733673', 
+                c.customer_id, 
+                'Zencorporation',
+                'Raul	Sarbacher', 
+                'Senior Scientist M1' 
+            FROM customer c
+            WHERE c.street = '4719 12-street' AND c.city = 'Bakersfield' AND c.state = 'FL' AND c.postal_code = '24603' AND c.phone_number = '1547387581' AND email = 'lscriven@xx-zobam.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '29-6662491', 
+                c.customer_id, 
+                'Scottech',
+                'Marti	Mccullan', 
+                'Director M1' 
+            FROM customer c
+            WHERE c.street = '2629 21-street' AND c.city = 'Jersey City' AND c.state = 'CA' AND c.postal_code = '94996' AND c.phone_number = '0848513693' AND email = 'smontezuma@sonron.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '50-0389893', 
+                c.customer_id, 
+                'Konex',
+                'Fletcher	Lipke', 
+                'Associate Fellow M8' 
+            FROM customer c
+            WHERE c.street = '3387 1-street' AND c.city = 'Chandler' AND c.state = 'TX' AND c.postal_code = '05028' AND c.phone_number = '5900619971' AND email = 'amiro@scottech.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '48-6768847', 
+                c.customer_id, 
+                'Hottechi',
+                'Amber	Hughey', 
+                'Fellow M7' 
+            FROM customer c
+            WHERE c.street = '4577 2-street' AND c.city = 'Albuquerque' AND c.state = 'AZ' AND c.postal_code = '97479' AND c.phone_number = '9760595092' AND email = 'dcorbley@dontechi.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '84-6387554', 
+                c.customer_id, 
+                'Rundofase',
+                'Willow	Tawil', 
+                'Senior Director L5' 
+            FROM customer c
+            WHERE c.street = '4018 12-street' AND c.city = 'Norfolk' AND c.state = 'NC' AND c.postal_code = '72164' AND c.phone_number = '3404435431' AND email = 'lplumer@year-job.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '83-3496482', 
+                c.customer_id, 
+                'Plussunin',
+                'Mattie	Kaniecki', 
+                'Fellow R2' 
+            FROM customer c
+            WHERE c.street = '5840 7-street' AND c.city = 'Dallas' AND c.state = 'TX' AND c.postal_code = '05460' AND c.phone_number = '0119161628' AND email = 'dwiklund@rantouch.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '17-3450014', 
+                c.customer_id, 
+                'Dalttechnology',
+                'Lawrence	Steier', 
+                'Associate Director M2' 
+            FROM customer c
+            WHERE c.street = '6697 7-street' AND c.city = 'Durham' AND c.state = 'WI' AND c.postal_code = '55959' AND c.phone_number = '2638845007' AND email = 'jbuvens@openlane.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '35-9898298', 
+                c.customer_id, 
+                'Yearin',
+                'Daniela	Blackwood', 
+                'Scientist R3' 
+            FROM customer c
+            WHERE c.street = '2069 3-street' AND c.city = 'Fort Worth' AND c.state = 'TX' AND c.postal_code = '85130' AND c.phone_number = '5607353093';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '94-7914925', 
+                c.customer_id, 
+                'Fasehatice',
+                'Allene	Denooyer', 
+                'Executive Manager R8' 
+            FROM customer c
+            WHERE c.street = '4880 6-street' AND c.city = 'Virginia Beach' AND c.state = 'GA' AND c.postal_code = '73720' AND c.phone_number = '7466598499' AND email = 'rpalaspas@plussunin.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '33-2934805', 
+                c.customer_id, 
+                'Condax',
+                'Jovita	Kolmetz', 
+                'Senior Scientist M6' 
+            FROM customer c
+            WHERE c.street = '249 12-street' AND c.city = 'Anchorage' AND c.state = 'CA' AND c.postal_code = '97646' AND c.phone_number = '8807995442' AND email = 'lbiddy@doncon.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '64-7492958', 
+                c.customer_id, 
+                'Treequote',
+                'Weldon	Hamilton', 
+                'Manager R6' 
+            FROM customer c
+            WHERE c.street = '1469 9-street' AND c.city = 'Tampa' AND c.state = 'HI' AND c.postal_code = '58840' AND c.phone_number = '7178971215' AND email = 'cwaymire@bioholding.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '92-9016618', 
+                c.customer_id, 
+                'Openlane',
+                'Fannie	Angalich', 
+                'Director R2' 
+            FROM customer c
+            WHERE c.street = '774 9-street' AND c.city = 'Charlotte' AND c.state = 'NC' AND c.postal_code = '33005' AND c.phone_number = '0752224067' AND email = 'mvanheusen@betatech.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '46-7746081', 
+                c.customer_id, 
+                'Golddex',
+                'Gayla	Klonowski', 
+                'Senior Scientist M7' 
+            FROM customer c
+            WHERE c.street = '4815 2-street' AND c.city = 'Las Vegas' AND c.state = 'WI' AND c.postal_code = '45686' AND c.phone_number = '4812049826' AND email = 'rshealy@zotware.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '72-6876442', 
+                c.customer_id, 
+                'Condax',
+                'Malcolm	Meisel', 
+                'Senior Director M8' 
+            FROM customer c
+            WHERE c.street = '4562 6-street' AND c.city = 'Portland' AND c.state = 'NV' AND c.postal_code = '60719' AND c.phone_number = '1681270085' AND email = 'vlukasik@groovestreet.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '81-7754883', 
+                c.customer_id, 
+                'Toughzap',
+                'Alishia	Hiatt', 
+                'Manager M3' 
+            FROM customer c
+            WHERE c.street = '9567 7-street' AND c.city = 'New York' AND c.state = 'NY' AND c.postal_code = '86956' AND c.phone_number = '2249310659';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '62-4702974', 
+                c.customer_id, 
+                'Rundofase',
+                'Chaya	Wolfgramm', 
+                'Senior Director R3' 
+            FROM customer c
+            WHERE c.street = '4538 11-street' AND c.city = 'New York' AND c.state = 'NY' AND c.postal_code = '67769' AND c.phone_number = '3982767982' AND email = 'ekarpel@fasehatice.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '24-4045456', 
+                c.customer_id, 
+                'Dalttechnology',
+                'Louisa	Labreche', 
+                'Senior Scientist R9' 
+            FROM customer c
+            WHERE c.street = '8006 18-street' AND c.city = 'Albuquerque' AND c.state = 'AZ' AND c.postal_code = '15360' AND c.phone_number = '6217686131' AND email = 'cboord@yearin.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '49-9516264', 
+                c.customer_id, 
+                'Kinnamplus',
+                'Kristeen	Blackwood', 
+                'Associate Director M9' 
+            FROM customer c
+            WHERE c.street = '9377 21-street' AND c.city = 'Louisville/Jefferson County' AND c.state = 'OR' AND c.postal_code = '67579' AND c.phone_number = '7607870807' AND email = 'rgillaspie@bioholding.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '50-9862780', 
+                c.customer_id, 
+                'Sumace',
+                'Eun	Mondella', 
+                'Researcher L1' 
+            FROM customer c
+            WHERE c.street = '2877 4-street' AND c.city = 'San Jose' AND c.state = 'CA' AND c.postal_code = '40803' AND c.phone_number = '1158576713' AND email = 'lhengel@blackzim.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '49-0400043', 
+                c.customer_id, 
+                'Bioholding',
+                'Francine	Devreese', 
+                'Senior Manager R7' 
+            FROM customer c
+            WHERE c.street = '6325 8-street' AND c.city = 'Aurora' AND c.state = 'CA' AND c.postal_code = '85535' AND c.phone_number = '1622683978' AND email = 'cnabours@iselectrics.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '51-0247747', 
+                c.customer_id, 
+                'Opentech',
+                'Margart	Juvera', 
+                'Associate Director R4' 
+            FROM customer c
+            WHERE c.street = '1170 11-street' AND c.city = 'Tampa' AND c.state = 'HI' AND c.postal_code = '09581' AND c.phone_number = '3329795636' AND email = 'dperruzza@rangreen.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '05-7673774', 
+                c.customer_id, 
+                'Kinnamplus',
+                'Leonida	Buzick', 
+                'Senior Director M8' 
+            FROM customer c
+            WHERE c.street = '3306 8-street' AND c.city = 'Fresno' AND c.state = 'CA' AND c.postal_code = '22531' AND c.phone_number = '1122666043' AND email = 'afrancescon@lexiqvolax.com';
+INSERT INTO customerbusiness (tax_id_number, customer_id, business_name, contact_name, title) 
+            SELECT 
+                '22-1607231', 
+                c.customer_id, 
+                'Openlane',
+                'Chanel	Maisto', 
+                'SalesRep L1' 
+            FROM customer c
+            WHERE c.street = '8234 7-street' AND c.city = 'Houston' AND c.state = 'TX' AND c.postal_code = '87425' AND c.phone_number = '2853350704';

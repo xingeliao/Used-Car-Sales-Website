@@ -1,0 +1,8 @@
+Sedan
+Coupe
+Convertible
+Truck
+Van
+Minivan
+SUV
+Other

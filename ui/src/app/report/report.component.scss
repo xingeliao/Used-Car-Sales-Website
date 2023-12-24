@@ -1,0 +1,11 @@
+.center-me {
+    margin: auto;
+}
+
+tr:not(.example-expanded-row):hover {
+    background: whitesmoke;
+  }
+  
+  tr:not(.example-expanded-row):active {
+    background: #efefef;
+  }

@@ -1,0 +1,20 @@
+<p>
+  <mat-toolbar>
+    <span (click)="navigateToSearch()">Buzz Cars</span>
+    <span class="toolbar-icon-spacer"></span>
+
+    <div *ngIf="cookie.get('user_role')">
+        <button mat-icon-button (click)="logoutUser()" class="example-icon" aria-label="Example icon-button with share icon">
+            <mat-icon>logout</mat-icon>
+        </button>
+    </div>
+    <div *ngIf="!cookie.get('user_role')">
+        <button  mat-icon-button (click)="loginUser()" class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>login</mat-icon>
+        </button>
+    </div>
+  </mat-toolbar>
+</p>
+
+
+<router-outlet></router-outlet>
